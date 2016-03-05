@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>酒馆儒生</title>
+  <subtitle>这辈子没法做太多的事情, 所以每一件都要做到精彩绝伦!</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://carygao.github.io/"/>
+  <updated>2016-03-04T09:00:09.212Z</updated>
+  <id>https://carygao.github.io/</id>
+  
+  <author>
+    <name>Cary</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随笔</title>
+    <link href="https://carygao.github.io/2016/03/04/%E9%9A%8F%E7%AC%94/"/>
+    <id>https://carygao.github.io/2016/03/04/随笔/</id>
+    <published>2016-03-04T08:55:33.000Z</published>
+    <updated>2016-03-04T09:00:09.212Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/resources/164646181173681758.jpg&quot; alt=&quot;澳门&quot;&gt;&lt;br&gt;&lt;em&gt;没有人是天才，个人的才能是靠自己挖掘的，登上山顶，望望身后已看不见的芸芸众生，回过头来，还需要继续向上。生活本不是闲情逸致，它本就是丑陋的，这个世界不会因为谁的离开就停止送给你恶意。我们唯一要学会的就是战斗，即使遇到困难，我们也要独自无谓的战斗下去。&lt;/em&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/resources/164646181173681758.jpg&quot; alt=&quot;澳门&quot;&gt;&lt;br&gt;&lt;em&gt;没有人是天才，个人的才能是靠自己挖掘的，登上山顶，望望身后已看不见的芸芸众生，回过头来，还需要继续向上。生活本不是闲情逸致，它本就是丑陋的，这个世界不
+    
+    </summary>
+    
+      <category term="感悟" scheme="https://carygao.github.io/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="随笔" scheme="https://carygao.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ORA-01882: timezone region</title>
+    <link href="https://carygao.github.io/2016/03/03/ORA-01882-timezone-region/"/>
+    <id>https://carygao.github.io/2016/03/03/ORA-01882-timezone-region/</id>
+    <published>2016-03-03T08:47:02.000Z</published>
+    <updated>2016-03-03T10:29:20.201Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;错误日志：&quot;&gt;&lt;a href=&quot;#错误日志：&quot; class=&quot;headerlink&quot; title=&quot;错误日志：&quot;&gt;&lt;/a&gt;错误日志：&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ORA-01882: timezone region&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;用weblogic配置连接池连到oracle时报错&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;错误原因：&quot;&gt;&lt;a href=&quot;#错误原因：&quot; class=&quot;headerlink&quot; title=&quot;错误原因：&quot;&gt;&lt;/a&gt;错误原因：&lt;/h2&gt;&lt;p&gt;原因是timezone没有设置&lt;/p&gt;
+&lt;h2 id=&quot;解决方法：&quot;&gt;&lt;a href=&quot;#解决方法：&quot; class=&quot;headerlink&quot; title=&quot;解决方法：&quot;&gt;&lt;/a&gt;解决方法：&lt;/h2&gt;&lt;p&gt;在jvm（Edit setDomainEnv.cmd）的参数后加入&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;-Duser.timezone=HKT&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;错误日志：&quot;&gt;&lt;a href=&quot;#错误日志：&quot; class=&quot;headerlink&quot; title=&quot;错误日志：&quot;&gt;&lt;/a&gt;错误日志：&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ORA-01882: timezone region&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;用weblogic配置连接池连到oracle时报错&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="java" scheme="https://carygao.github.io/categories/java/"/>
+    
+    
+      <category term="oracle" scheme="https://carygao.github.io/tags/oracle/"/>
+    
+      <category term="java" scheme="https://carygao.github.io/tags/java/"/>
+    
+      <category term="weblogic" scheme="https://carygao.github.io/tags/weblogic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何将UITableViewDelegate和UITableViewDataSource从UITableViewController中分离出来?</title>
+    <link href="https://carygao.github.io/2010/08/18/%E5%8E%9F-%E5%A6%82%E4%BD%95%E5%B0%86UITableViewDelegate%E5%92%8CUITableViewDataSource%E4%BB%8EUITableViewController%E4%B8%AD%E5%88%86%E7%A6%BB%E5%87%BA%E6%9D%A5/"/>
+    <id>https://carygao.github.io/2010/08/18/原-如何将UITableViewDelegate和UITableViewDataSource从UITableViewController中分离出来/</id>
+    <published>2010-08-18T08:21:00.000Z</published>
+    <updated>2016-03-04T02:18:42.000Z</updated>
+    
+    <content type="html">&lt;p&gt;大家都知道如果给&lt;code&gt;UITableViewController&lt;/code&gt;装载一些数据和控制cell的行为(高度,样式等)都需要指定&lt;code&gt;UITableView&lt;/code&gt;的delegate给自身,一般会使用IB或者在&lt;code&gt;viewDidLoad&lt;/code&gt;中写上&lt;code&gt;self.tableView.delegate = self;&lt;/code&gt;然后实现&lt;code&gt;UITableViewDelegate&lt;/code&gt;和&lt;code&gt;UITableViewDataSource&lt;/code&gt;中的方法,例如:&lt;code&gt;-tableView:cellForRowAtIndexPath:&lt;/code&gt; 等等.&lt;br&gt;那么如何将实现&lt;code&gt;UITableViewDelegate&lt;/code&gt;和&lt;code&gt;UITableViewDataSource&lt;/code&gt;的方法脱离出来单独放在一个新的class中呢?&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;第一步-建立TableDataDelegate&quot;&gt;&lt;a href=&quot;#第一步-建立TableDataDelegate&quot; class=&quot;headerlink&quot; title=&quot;第一步:建立TableDataDelegate&quot;&gt;&lt;/a&gt;第一步:建立TableDataDelegate&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;TableDataDelegate.h&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@interface&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;TableDataDelegate&lt;/span&gt; : &lt;span class=&quot;title&quot;&gt;NSObject&lt;/span&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;UITableViewDelegate&lt;/span&gt;,&lt;span class=&quot;title&quot;&gt;UITableViewDataSource&lt;/span&gt;&amp;gt; &lt;/span&gt;&amp;#123;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;NSArray&lt;/span&gt; *_data;&lt;span class=&quot;comment&quot;&gt;//用于cell的数据,你可以选择自己的方式  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@property&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;nonatomic&lt;/span&gt;,retain) &lt;span class=&quot;built_in&quot;&gt;NSArray&lt;/span&gt; *data;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@end&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;TableDataDelegate.m&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#import &lt;span class=&quot;meta-string&quot;&gt;&quot;TableDataSource.h&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@implementation&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;TableDataSource&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@synthesize&lt;/span&gt; data = data;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;built_in&quot;&gt;CGFloat&lt;/span&gt;)tableView:(&lt;span class=&quot;built_in&quot;&gt;UITableView&lt;/span&gt; *)tableView heightForRowAtIndexPath:(&lt;span class=&quot;built_in&quot;&gt;NSIndexPath&lt;/span&gt; *)indexPath&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	.......&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;built_in&quot;&gt;UITableViewCell&lt;/span&gt; *)tableView:(&lt;span class=&quot;built_in&quot;&gt;UITableView&lt;/span&gt; *)tableView cellForRowAtIndexPath:(&lt;span class=&quot;built_in&quot;&gt;NSIndexPath&lt;/span&gt; *)indexPath&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	.......&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- (&lt;span class=&quot;built_in&quot;&gt;NSInteger&lt;/span&gt;)tableView:(&lt;span class=&quot;built_in&quot;&gt;UITableView&lt;/span&gt; *)tableView numberOfRowsInSection:(&lt;span class=&quot;built_in&quot;&gt;NSInteger&lt;/span&gt;)section&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	......&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-(&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;) dealloc&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	[data release];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	[&lt;span class=&quot;keyword&quot;&gt;super&lt;/span&gt; dealloc];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@end&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;该delegate实现了我们需要的方法&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;myTableController.h&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#import &lt;span class=&quot;meta-string&quot;&gt;&quot;TableDataDelegate.h&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@interface&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;MyTableController&lt;/span&gt; : &lt;span class=&quot;title&quot;&gt;UIViewController&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;UITableView&lt;/span&gt; *_tableView;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	TableDataDelegate *_dataDelegate;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@property&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;nonatomic&lt;/span&gt;,retain) &lt;span class=&quot;keyword&quot;&gt;IBOutlet&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;UITableView&lt;/span&gt; *tableView;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@property&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;nonatomic&lt;/span&gt;,retain) &lt;span class=&quot;keyword&quot;&gt;IBOutlet&lt;/span&gt; TableDataDelegate *dataDelegate;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@end&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在MyTableController中,我定义了TableDataDelegate这个class,这是必须的,因为这里必须retain它,否则你会运行失败,接下来还需要将它连接到XIB中.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;myTableController.m&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;-(&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt;) viewDidLoad&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &lt;span class=&quot;comment&quot;&gt;//_dataDelegate.data = ...可以在这里设置你的data,也可以在其他地方,例如viewWillAppear&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;第二步-在IB中建立连接&quot;&gt;&lt;a href=&quot;#第二步-在IB中建立连接&quot; class=&quot;headerlink&quot; title=&quot;第二步:在IB中建立连接&quot;&gt;&lt;/a&gt;第二步:在IB中建立连接&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://hi.csdn.net/attachment/201008/18/0_12821186343wku.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如上图所示,从Library中拖出Object到我们的XIB中,将class设置为TableDataDelegate,然后将MyTableController中的dataDelegate连接到这里,这一步很重要,我最开始的失败就差了这一步.然后对应的dataSource和delegate都连接到你的UITableView上.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://hi.csdn.net/attachment/201008/18/0_1282118893v1v9.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UITableView的连接示例&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://hi.csdn.net/attachment/201008/18/0_12821192182WH7.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;最后是MyTableController的连接示例&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大家都知道如果给&lt;code&gt;UITableViewController&lt;/code&gt;装载一些数据和控制cell的行为(高度,样式等)都需要指定&lt;code&gt;UITableView&lt;/code&gt;的delegate给自身,一般会使用IB或者在&lt;code&gt;viewDidLoad&lt;/code&gt;中写上&lt;code&gt;self.tableView.delegate = self;&lt;/code&gt;然后实现&lt;code&gt;UITableViewDelegate&lt;/code&gt;和&lt;code&gt;UITableViewDataSource&lt;/code&gt;中的方法,例如:&lt;code&gt;-tableView:cellForRowAtIndexPath:&lt;/code&gt; 等等.&lt;br&gt;那么如何将实现&lt;code&gt;UITableViewDelegate&lt;/code&gt;和&lt;code&gt;UITableViewDataSource&lt;/code&gt;的方法脱离出来单独放在一个新的class中呢?&lt;br&gt;
+    
+    </summary>
+    
+      <category term="objectiveC" scheme="https://carygao.github.io/categories/objectiveC/"/>
+    
+    
+      <category term="objective-c" scheme="https://carygao.github.io/tags/objective-c/"/>
+    
+      <category term="ios" scheme="https://carygao.github.io/tags/ios/"/>
+    
+      <category term="iphone" scheme="https://carygao.github.io/tags/iphone/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[原]如何移动组件的位置，例如如何将UIAlertView显示在屏幕上部</title>
+    <link href="https://carygao.github.io/2010/05/26/%E5%8E%9F-%E5%A6%82%E4%BD%95%E7%A7%BB%E5%8A%A8%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%8D%E7%BD%AE%EF%BC%8C%E4%BE%8B%E5%A6%82%E5%A6%82%E4%BD%95%E5%B0%86UIAlertView%E6%98%BE%E7%A4%BA%E5%9C%A8%E5%B1%8F%E5%B9%95%E4%B8%8A%E9%83%A8/"/>
+    <id>https://carygao.github.io/2010/05/26/原-如何移动组件的位置，例如如何将UIAlertView显示在屏幕上部/</id>
+    <published>2010-05-26T08:59:00.000Z</published>
+    <updated>2016-03-04T02:01:02.000Z</updated>
+    
+    <content type="html">&lt;p&gt;苹果自带的警告框非常好用，但是它总是显示在屏幕中间，我们如何将它的位置移动呢？从Iphone SDK3开始我们可以使用CGAffineTransformTranslate&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;UIAlertView * alert = [ [ UIAlertView alloc ] initWithTitle:@”Alert” message:@”Alert”&lt;br&gt;                        delegate:self cancelButtonTitle:@”OK” otherButtonTitles:nil ];&lt;br&gt;alert.transform = CGAffineTransformTranslate( alert.transform, 0.0, 100.0 );&lt;br&gt;[ alert show ];&lt;/textarea&gt;&amp;nbsp;&lt;code&gt;CGAffineTransformTranslate&lt;/code&gt;&amp;nbsp;有3个参数: 组件的 transform, x transform,y transform. 在代码中, 我将alert上移动了100个宽度。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2010/5/26 16:59:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5625903)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：2207 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/5625903#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;苹果自带的警告框非常好用，但是它总是显示在屏幕中间，我们如何将它的位置移动呢？从Iphone SDK3开始我们可以使用CGAffineTransformTranslate&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]如何在navigationBar的中间添加一张自定义图片？</title>
+    <link href="https://carygao.github.io/2010/05/12/%E5%8E%9F-%E5%A6%82%E4%BD%95%E5%9C%A8navigationBar%E7%9A%84%E4%B8%AD%E9%97%B4%E6%B7%BB%E5%8A%A0%E4%B8%80%E5%BC%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BE%E7%89%87%EF%BC%9F/"/>
+    <id>https://carygao.github.io/2010/05/12/原-如何在navigationBar的中间添加一张自定义图片？/</id>
+    <published>2010-05-12T06:51:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;以下代码展示了如何在navigationBar中间添加一张自定义图片&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;UIImage &lt;em&gt;image = [UIImage imageNamed: @”NavBarImage.png”];&lt;br&gt;UIImageView &lt;/em&gt;imageView = [[UIImageView alloc] initWithImage: image];&lt;br&gt;self.navigationItem.titleView = imageView;&lt;br&gt;[imageView release];&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;参考资料：&lt;a href=&quot;http://stackoverflow.com/questions/844416/how-to-display-an-image-in-the-navigation-bar-of-an-iphone-application&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://stackoverflow.com/questions/844416/how-to-display-an-image-in-the-navigation-bar-of-an-iphone-application&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2010/5/12 14:51:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5582684)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：2937 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/5582684#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;以下代码展示了如何在navigationBar中间添加一张自定义图片&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;UIImage &lt;em&gt;image = [UIImage imageNam
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]如何给组件添加事件并传递参数</title>
+    <link href="https://carygao.github.io/2010/05/06/%E5%8E%9F-%E5%A6%82%E4%BD%95%E7%BB%99%E7%BB%84%E4%BB%B6%E6%B7%BB%E5%8A%A0%E4%BA%8B%E4%BB%B6%E5%B9%B6%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0/"/>
+    <id>https://carygao.github.io/2010/05/06/原-如何给组件添加事件并传递参数/</id>
+    <published>2010-05-06T07:18:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; 我们以UIButton为demo&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(buttonX, buttonY, width, height)];&lt;br&gt;//给button添加点击事件，action参数中写入事件执行方法&lt;br&gt;[button addTarget:self action:@selector(action:) forControlEvents:UIControlEventTouchUpInside];&lt;br&gt;//在button的tag中添加你需要传递的参数，目前资料中只有这种方法&lt;br&gt;//你可以传入任意类型的参数&lt;br&gt;[button setTag:100];&lt;br&gt;//下面是action方法&lt;br&gt;-(void)action:(id)sender{&lt;br&gt;//这个sender其实就是UIButton，因此通过sender.tag就可以拿到刚才的参数&lt;br&gt;    int i = [sender tag];&lt;br&gt;}&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;目前暂时没有找到其他方法来传递参数，&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2010/5/6 15:18:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5563506)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：4652 评论：1 [查看评论](http://blog.csdn.net/wherejaly/article/details/5563506#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; 我们以UIButton为demo&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;UIButton *button = [[UIButton alloc
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]如何转换NSString与NSDate?</title>
+    <link href="https://carygao.github.io/2010/04/30/%E5%8E%9F-%E5%A6%82%E4%BD%95%E8%BD%AC%E6%8D%A2NSString%E4%B8%8ENSDate/"/>
+    <id>https://carygao.github.io/2010/04/30/原-如何转换NSString与NSDate/</id>
+    <published>2010-04-30T03:47:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; 想要在NSString与NSDate之间进行转换，答案是使用NSDateFormatter,该类提供了&amp;ndash; dateFromString: 和&amp;ndash; stringFromDate:两个关键的方法，具体使用请看如下代码：&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;cpp&quot;&gt;NSDateFormatter &lt;em&gt;formatter = [[NSDateFormatter alloc] init];&lt;br&gt;[formatter setDateFormat:@”yyyy”];&lt;br&gt;//Optionally for time zone converstions&lt;br&gt;[formatter setTimeZone:[NSTimeZone timeZoneWithName:@”…”]];&lt;br&gt;NSString &lt;/em&gt;stringFromDate = [formatter stringFromDate:myNSDateInstance];&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;参考资料：&lt;a href=&quot;http://stackoverflow.com/questions/576265/convert-nsdate-to-nsstring&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://stackoverflow.com/questions/576265/convert-nsdate-to-nsstring&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2010/4/30 11:47:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5545712)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：2799 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/5545712#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; 想要在NSString与NSDate之间进行转换，答案是使用NSDateFormatter,该类提供了&amp;ndash; dateFromString: 和&amp;ndash; stringFromDate:两个关键的方法，具体使用请看如下代码
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]怎样将UIImage对象保存到JPG或者PNG文件中？</title>
+    <link href="https://carygao.github.io/2010/04/28/%E5%8E%9F-%E6%80%8E%E6%A0%B7%E5%B0%86UIImage%E5%AF%B9%E8%B1%A1%E4%BF%9D%E5%AD%98%E5%88%B0JPG%E6%88%96%E8%80%85PNG%E6%96%87%E4%BB%B6%E4%B8%AD%EF%BC%9F/"/>
+    <id>https://carygao.github.io/2010/04/28/原-怎样将UIImage对象保存到JPG或者PNG文件中？/</id>
+    <published>2010-04-28T03:54:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;我们都知道如果要从data中或者file中读取数据并包装成UIImage可以使用+ imageWithData:&amp;nbsp;和+&amp;nbsp;imageWithContentsOfFile: 但如果想把UIImage的图片数据写入到jpg或者png格式的文件中呢？答案是UIImageJPEGRepresentation，请看如下代码&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;cpp&quot;&gt;/ Create paths to output images&lt;br&gt;NSString  &lt;em&gt;pngPath = [NSHomeDirectory() stringByAppendingPathComponent:@”Documents/Test.png”];&lt;br&gt;NSString  &lt;/em&gt;jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@”Documents/Test.jpg”];&lt;/textarea&gt;&lt;/p&gt;
+&lt;p&gt;// Write a UIImage to JPEG with minimum compression (best quality)&lt;br&gt;// The value ‘image’ must be a UIImage object&lt;br&gt;// The value ‘1.0’ represents image compression quality as value from 0.0 to 1.0&lt;br&gt;[UIImageJPEGRepresentation(image, 1.0) writeToFile:jpgPath atomically:YES];&lt;/p&gt;
+&lt;p&gt;// Write image to PNG&lt;br&gt;[UIImagePNGRepresentation(image) writeToFile:pngPath atomically:YES];&lt;/p&gt;
+&lt;p&gt;// Let’s check to see if files were successfully written…&lt;/p&gt;
+&lt;p&gt;// Create file manager&lt;br&gt;NSError &lt;em&gt;error;&lt;br&gt;NSFileManager &lt;/em&gt;fileMgr = [NSFileManager defaultManager];&lt;/p&gt;
+&lt;p&gt;// Point to Document directory&lt;br&gt;NSString *documentsDirectory = [NSHomeDirectory() stringByAppendingPathComponent:@”Documents”];&lt;/p&gt;
+&lt;p&gt;// Write out the contents of home directory to console&lt;br&gt;NSLog(@”Documents directory: %@”, [fileMgr contentsOfDirectoryAtPath:documentsDirectory error:&amp;amp;error]);&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;参考资料：&lt;a href=&quot;http://iphonedevelopertips.com/data-file-management/save-uiimage-object-as-a-png-or-jpeg-file.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://iphonedevelopertips.com/data-file-management/save-uiimage-object-as-a-png-or-jpeg-file.html&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2010/4/28 11:54:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5538248)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：14139 评论：1 [查看评论](http://blog.csdn.net/wherejaly/article/details/5538248#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们都知道如果要从data中或者file中读取数据并包装成UIImage可以使用+ imageWithData:&amp;nbsp;和+&amp;nbsp;imageWithContentsOfFile: 但如果想把UIImage的图片数据写入到jpg或者png格式的文件中呢？答案是UII
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]Eclipse快捷键大搜集(不断更新)</title>
+    <link href="https://carygao.github.io/2010/04/27/%E5%8E%9F-Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E6%90%9C%E9%9B%86-%E4%B8%8D%E6%96%AD%E6%9B%B4%E6%96%B0/"/>
+    <id>https://carygao.github.io/2010/04/27/原-Eclipse快捷键大搜集-不断更新/</id>
+    <published>2010-04-27T03:14:00.000Z</published>
+    <updated>2016-03-04T01:59:48.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;Eclipse快捷键大全&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Ctrl+1 快速修复(最经典的快捷键,就不用多说了)&lt;/p&gt;
+&lt;p&gt;Ctrl+D: 删除当前行&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Ctrl+Alt+&amp;darr; 复制当前行到下一行(复制增加)&lt;/p&gt;
+&lt;p&gt;Ctrl+Alt+&amp;uarr; 复制当前行到上一行(复制增加)&lt;/p&gt;
+&lt;p&gt;Alt+&amp;darr; 当前行和下面一行交互位置(特别实用,可以省去先剪切,再粘贴了)&lt;/p&gt;
+&lt;p&gt;Alt+&amp;uarr; 当前行和上面一行交互位置(同上)&lt;/p&gt;
+&lt;p&gt;Alt+&amp;larr; 前一个编辑的页面&lt;/p&gt;
+&lt;p&gt;Alt+&amp;rarr; 下一个编辑的页面(当然是针对上面那条来说了)&lt;/p&gt;
+&lt;p&gt;Alt+Enter 显示当前选择资源(工程,or 文件 or文件)的属性&lt;/p&gt;
+&lt;p&gt;Shift+Enter 在当前行的下一行插入空行(这时鼠标可以在当前行的任一位置,不一定是最后)&lt;/p&gt;
+&lt;p&gt;Shift+Ctrl+Enter 在当前行插入空行(原理同上条)&lt;/p&gt;
+&lt;p&gt;Ctrl+Q 定位到最后编辑的地方&lt;/p&gt;
+&lt;p&gt;Ctrl+L 定位在某行 (对于程序超过100的人就有福音了)&lt;/p&gt;
+&lt;p&gt;Ctrl+M 最大化当前的Edit或View (再按则反之)&lt;/p&gt;
+&lt;p&gt;Ctrl+/ 注释当前行,再按则取消注释&lt;/p&gt;
+&lt;p&gt;Ctrl+O 快速显示 OutLine&lt;/p&gt;
+&lt;p&gt;Ctrl+T 快速显示当前类的继承结构&lt;/p&gt;
+&lt;p&gt;Ctrl+W 关闭当前Editer&lt;/p&gt;
+&lt;p&gt;Ctrl+K 参照选中的Word快速定位到下一个&lt;/p&gt;
+&lt;p&gt;Ctrl+E 快速显示当前Editer的下拉列表(如果当前页面没有显示的用黑体表示)&lt;/p&gt;
+&lt;p&gt;Ctrl+/(小键盘) 折叠当前类中的所有代码&lt;/p&gt;
+&lt;p&gt;Ctrl+&amp;times;(小键盘) 展开当前类中的所有代码&lt;/p&gt;
+&lt;p&gt;Ctrl+Space 代码助手完成一些代码的插入(但一般和输入法有冲突,可以修改输入法的热键,也可以暂用Alt+/来代替)&lt;/p&gt;
+&lt;p&gt;Ctrl+Shift+E 显示管理当前打开的所有的View的管理器(可以选择关闭,激活等操作)&lt;/p&gt;
+&lt;p&gt;Ctrl+J 正向增量查找(按下Ctrl+J后,你所输入的每个字母编辑器都提供快速匹配定位到某个单词,如果没有,则在stutes line中显示没有找到了,查一个单词时,特别实用,这个功能Idea两年前就有了)&lt;/p&gt;
+&lt;p&gt;Ctrl+Shift+J 反向增量查找(和上条相同,只不过是从后往前查)&lt;/p&gt;
+&lt;p&gt;Ctrl+Shift+F4 关闭所有打开的Editer&lt;/p&gt;
+&lt;p&gt;Ctrl+Shift+X 把当前选中的文本全部变味小写&lt;/p&gt;
+&lt;p&gt;Ctrl+Shift+Y 把当前选中的文本全部变为小写&lt;/p&gt;
+&lt;p&gt;Ctrl+Shift+F 格式化当前代码&lt;/p&gt;
+&lt;p&gt;Ctrl+Shift+P 定位到对于的匹配符(譬如{}) (从前面定位后面时,光标要在匹配符里面,后面到前面,则反之)&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;下面的快捷键是重构里面常用的,本人就自己喜欢且常用的整理一下(注:一般重构的快捷键都是Alt+Shift开头的了)&lt;/p&gt;
+&lt;p&gt;Alt+Shift+R 重命名 (是我自己最爱用的一个了,尤其是变量和类的Rename,比手工方法能节省很多劳动力)&lt;/p&gt;
+&lt;p&gt;Alt+Shift+M 抽取方法 (这是重构里面最常用的方法之一了,尤其是对一大堆泥团代码有用)&lt;/p&gt;
+&lt;p&gt;Alt+Shift+C 修改函数结构(比较实用,有N个函数调用了这个方法,修改一次搞定)&lt;/p&gt;
+&lt;p&gt;Alt+Shift+L 抽取本地变量( 可以直接把一些魔法数字和字符串抽取成一个变量,尤其是多处调用的时候)&lt;/p&gt;
+&lt;p&gt;Alt+Shift+F 把Class中的local变量变为field变量 (比较实用的功能)&lt;/p&gt;
+&lt;p&gt;Alt+Shift+I 合并变量(可能这样说有点不妥Inline)&lt;/p&gt;
+&lt;p&gt;Alt+Shift+V 移动函数和变量(不怎么常用)&lt;/p&gt;
+&lt;p&gt;Alt+Shift+Z 重构的后悔药(Undo)&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;编辑&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 查找并替换 Ctrl+F&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 查找上一个 Ctrl+Shift+K&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 查找下一个 Ctrl+K&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 撤销 Ctrl+Z&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 复制 Ctrl+C&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 恢复上一个选择 Alt+Shift+&amp;darr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 剪切 Ctrl+X&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 快速修正 Ctrl1+1&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 内容辅助 Alt+/&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 全部选中 Ctrl+A&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 删除 Delete&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 上下文信息 Alt+？&lt;/p&gt;
+&lt;p&gt;Alt+Shift+?&lt;/p&gt;
+&lt;p&gt;Ctrl+Shift+Space&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 显示工具提示描述 F2&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 选择封装元素 Alt+Shift+&amp;uarr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 选择上一个元素 Alt+Shift+&amp;larr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 选择下一个元素 Alt+Shift+&amp;rarr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 增量查找 Ctrl+J&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 增量逆向查找 Ctrl+Shift+J&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 粘贴 Ctrl+V&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 重做 Ctrl+Y&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;查看&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 放大 Ctrl+=&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 缩小 Ctrl+-&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;窗口&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 激活编辑器 F12&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 切换编辑器 Ctrl+Shift+W&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 上一个编辑器 Ctrl+Shift+F6&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 上一个视图 Ctrl+Shift+F7&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 上一个透视图 Ctrl+Shift+F8&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 下一个编辑器 Ctrl+F6&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 下一个视图 Ctrl+F7&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 下一个透视图 Ctrl+F8&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 显示标尺上下文菜单 Ctrl+W&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 显示视图菜单 Ctrl+F10&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 显示系统菜单 Alt+-&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;导航&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 打开结构 Ctrl+F3&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 打开类型 Ctrl+Shift+T&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 打开类型层次结构 F4&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 打开声明 F3&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 打开外部javadoc Shift+F2&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 打开资源 Ctrl+Shift+R&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 后退历史记录 Alt+&amp;larr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 前进历史记录 Alt+&amp;rarr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 上一个 Ctrl+,&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 下一个 Ctrl+.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 显示大纲 Ctrl+O&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 在层次结构中打开类型 Ctrl+Shift+H&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 转至匹配的括号 Ctrl+Shift+P&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 转至上一个编辑位置 Ctrl+Q&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 转至上一个成员 Ctrl+Shift+&amp;uarr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 转至下一个成员 Ctrl+Shift+&amp;darr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 转至行 Ctrl+L&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;搜索&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 出现在文件中 Ctrl+Shift+U&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 打开搜索对话框 Ctrl+H&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 工作区中的声明 Ctrl+G&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 工作区中的引用 Ctrl+Shift+G&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 改写切换 Insert&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 上滚行 Ctrl+&amp;uarr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文本编辑器 下滚行 Ctrl+&amp;darr;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;文件&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 保存 Ctrl+X&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Ctrl+S&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 打印 Ctrl+P&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 关闭 Ctrl+F4&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 全部保存 Ctrl+Shift+S&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 全部关闭 Ctrl+Shift+F4&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 属性 Alt+Enter&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 新建 Ctrl+N&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;项目&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 全部构建 Ctrl+B&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;源代码&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 格式化 Ctrl+Shift+F&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 取消注释 Ctrl+/&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 注释 Ctrl+/&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 添加导入 Ctrl+Shift+M&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 组织导入 Ctrl+Shift+O&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Java编辑器 使用try/catch块来包围 未设置，太常用了，所以在这里列出,建议自己设置。&lt;/p&gt;
+&lt;p&gt;也可以使用Ctrl+1自动修正。&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;运行&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 单步返回 F7&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 单步跳过 F6&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 单步跳入 F5&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 单步跳入选择 Ctrl+F5&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 调试上次启动 F11&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 继续 F8&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 使用过滤器单步执行 Shift+F5&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 添加/去除断点 Ctrl+Shift+B&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 显示 Ctrl+D&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 运行上次启动 Ctrl+F11&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 运行至行 Ctrl+R&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 执行 Ctrl+U&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;重构&lt;/p&gt;
+&lt;p&gt;作用域 功能 快捷键&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 撤销重构 Alt+Shift+Z&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 抽取方法 Alt+Shift+M&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 抽取局部变量 Alt+Shift+L&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 内联 Alt+Shift+I&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 移动 Alt+Shift+V&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 重命名 Alt+Shift+R&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;全局 重做 Alt+Shift+Y&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;br&gt;            &lt;div&gt;&lt;br&gt;                作者：wherejaly 发表于2010/4/27 11:14:00 &lt;a href=&quot;http://blog.csdn.net/wherejaly/article/details/5533184&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;原文链接&lt;/a&gt;&lt;br&gt;            &lt;/div&gt;&lt;br&gt;            &lt;div&gt;&lt;br&gt;            阅读：415 评论：0 &lt;a href=&quot;http://blog.csdn.net/wherejaly/article/details/5533184#comments&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;查看评论&lt;/a&gt;&lt;br&gt;            &lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;p&gt;Eclipse快捷键大全&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]Xcode快捷键大搜集(不断更新)</title>
+    <link href="https://carygao.github.io/2010/04/27/%E5%8E%9F-Xcode%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E6%90%9C%E9%9B%86-%E4%B8%8D%E6%96%AD%E6%9B%B4%E6%96%B0/"/>
+    <id>https://carygao.github.io/2010/04/27/原-Xcode快捷键大搜集-不断更新/</id>
+    <published>2010-04-27T03:01:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;如果想要练成独孤九剑,出招快是第一秘诀,所以想要提高开发速度,从省时间的角度,第一位要解决的就是使用快捷键来代替一些繁琐的操作.于是本人搜集了众多快捷键,并不断更新,力求完美.&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;alt+cmd   +上&lt;br&gt;alt+cmd   +左／右 （sdk3.0之后有不同）&lt;br&gt;alt+左/右&lt;br&gt;control+左/右&lt;br&gt;cmd＋左/右&lt;br&gt;alt+shift+左/右&lt;br&gt;control+shift+左/右&lt;br&gt;cmd＋shift+左/右&lt;br&gt;control+shift+e&lt;br&gt;alt+delete&lt;br&gt;control+ delete&lt;br&gt;cmd＋delete&lt;br&gt;shift+cmd+r&lt;br&gt;shift+cmd+f&lt;br&gt;cmd+k&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2010/4/27 11:01:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5533085)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：469 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/5533085#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;如果想要练成独孤九剑,出招快是第一秘诀,所以想要提高开发速度,从省时间的角度,第一位要解决的就是使用快捷键来代替一些繁琐的操作.于是本人搜集了众多快捷键,并不断更新,力求完美.&lt;/p&gt;
+&lt;p&gt;&lt;textare
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]怎样获得documents文件夹以及为文件改名</title>
+    <link href="https://carygao.github.io/2010/04/26/%E5%8E%9F-%E6%80%8E%E6%A0%B7%E8%8E%B7%E5%BE%97documents%E6%96%87%E4%BB%B6%E5%A4%B9%E4%BB%A5%E5%8F%8A%E4%B8%BA%E6%96%87%E4%BB%B6%E6%94%B9%E5%90%8D/"/>
+    <id>https://carygao.github.io/2010/04/26/原-怎样获得documents文件夹以及为文件改名/</id>
+    <published>2010-04-26T07:29:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;可以使用c函数NSSearchPathForDirectoriesInDomain来查找各种目录。它是Foundation函数，因此它可以与Cocoa for Mac OS X共享。它的很多可用选项都是专门为OS X设计的，在iphone上不会返回任何值。其原因在于，这些位置并不存在于iphone（如Downloads文件夹）上，或者你的应用程序由于iPhone的沙盒机制而没有访问该位置的权限。&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;cpp&quot;&gt;    NSArray &lt;em&gt;paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);&lt;br&gt;    NSString &lt;/em&gt;documentsDirectory = [paths objectAtIndex:0];&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;常量NSDocumentDirectory表明我们正在查找Documents目录的路径。第二个常量NSUserDomaininMask表明我们希望将搜索限制于我们应用程序的沙盒。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;如果你需要更改一个文件的文件名，你可能会查找NSFileManager的API，但你发现该死的API里根本没有改名的方法，但我们肯定会要应用到改名的操作。其实苹果很狡诈，在movePath方法中是可以用来改名的。&lt;/p&gt;
+&lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;NSString *newPath = [[oldPath stringByDeletingLastPathComponent] stringByAppendingPathComponent:newFilename];&lt;br&gt;[[NSFileManager defaultManager] movePath:oldPath toPath:newPath handler:nil];&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;newFilename是你新文件名，只需要把老文件写入到这个新文件中即完成了改名。。。。。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2010/4/26 15:29:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5530090)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：1933 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/5530090#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;nbsp;&amp;nbsp;可以使用c函数NSSearchPathForDirectoriesInDomain来查找各种目录。它是Foundation函数，因此它可以与Cocoa for Mac OS X共享。它的很多可用选项都是专门为OS X设计的，在iphone上不会返回任
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[转]GPL协议的适用范围</title>
+    <link href="https://carygao.github.io/2009/12/19/%E8%BD%AC-GPL%E5%8D%8F%E8%AE%AE%E7%9A%84%E9%80%82%E7%94%A8%E8%8C%83%E5%9B%B4/"/>
+    <id>https://carygao.github.io/2009/12/19/转-GPL协议的适用范围/</id>
+    <published>2009-12-19T04:50:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;本文转载至&lt;a href=&quot;http://www.javaeye.com/topic/188442&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.javaeye.com/topic/188442&lt;/a&gt; 由robbin大大发表&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Google运行的服务器操作系统是自己改造过的Linux，而Linux采用的是GPLv2协议。按照你的理解，Google有义务向每个使用&lt;br&gt;Google搜索服务的网民提供他们的服务器操作系统源代码。但是我可以担保，你去找Google要他们的操作系统源代码，Google是绝对不会给你&lt;br&gt;的。&lt;/p&gt;
+&lt;p&gt;所谓协议的开源，指的是&lt;strong&gt;&lt;span style=&quot;color: red;&quot;&gt;distribution&lt;/span&gt;
+&lt;/strong&gt;&lt;br&gt;情况下的开源，也就是说当你向外&lt;strong&gt;&lt;span style=&quot;color: red;&quot;&gt;分发&lt;/span&gt;
+&lt;/strong&gt;&lt;br&gt;的&lt;br&gt;时候必须开源。比方说你用了EXT，然后修改了EXT的源代码，然后又把这份修改的源代码向外分发，此时你必须向你的分发者开源。但是如果你并没有向外分&lt;br&gt;发源代码，那么你就无须开源，无论你如何使用这份源代码。所以你要自己运营网站使用了EXT，并且修改了源代码，你没有任何义务向任何人提供这份代码。&lt;/p&gt;
+&lt;p&gt;我觉得要理解GPL协议的话，最好了解一下Richard&lt;br&gt;Stallman当年发起GNU组织背后的那些故事，这非常有助于理解GPL协议。这个故事的简单版本就是Stallman还在MIT的时候，实验室有台&lt;br&gt;施乐的打印机，但是他的网络驱动程序有问题，于是Stallman每次打印文档不得不跑到楼下打印机旁的电脑上面去打印，而不能在楼上通过自己的电脑直接&lt;br&gt;打印。由于施乐这个早期打印机提供了驱动程序源代码，于是Stallman自己修改驱动程序解决了这个问题。后来施乐新的打印机不再提供驱动程序，那么&lt;br&gt;Stallman要根据自己的需要修改驱动程序就没有办法下手了。因为这件事情，让Stallman觉得，软件厂商在分发二进制软件的时候应该携带源代&lt;br&gt;码，给分发用户自己修改源代码的自由权利。&lt;/p&gt;
+&lt;p&gt;从这个故事来说，以及钻研GPL以及其他开源协议的文本可以看出，协议适用范围是&lt;strong&gt;&lt;span style=&quot;color: red;&quot;&gt;&amp;ldquo;distribution&amp;rdquo;&lt;/span&gt;
+&lt;/strong&gt;&lt;br&gt;，如果你没有分发的行为，当然就没有开源的必要。否则我下载了Linux源代码乱改一起，如果你找我要，我难道还非得把我这个涂鸦之作给你不可吗？这不就闹笑话了吗。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;准确的来说是你把这个软件分发(可以是付费分发)给谁，你就必须把源代码一起提供给他。请注意你并不需要向全世界公开，你只有义务向分发者公开。&lt;/p&gt;
+&lt;p&gt;对于得到这个软件的分发者来说，他手里既有二进制版本，也有源代码版本，这时情况就不同了：他如果想把二进制版本再次分发出去是违法的，必须得到&lt;br&gt;你的授权才行；但是他可以把源代码版本向任何人分发，而不需要得到你的授权。所以如果分发者非要把这份源代码向全世界公开，你无权阻止他。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;quote_div&quot;&gt;Q:&lt;span style=&quot;color: #ff0000;&quot;&gt;web条件下,服务器端向客户端传输也是分发的动作吗?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;A:这不叫分发，这叫使用。除非你在网站上面提供该软件的下载，提供公众下载，这才叫分发。&lt;/p&gt;
+&lt;p&gt;不过话说回来，JS这种东西本来就没有办法保护源代码，你采用不采用GPLv3协议都无关紧要，人家要看也就随时看了。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/12/19 12:50:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5037563)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：1664 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/5037563#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;本文转载至&lt;a href=&quot;http://www.javaeye.com/topic/188442&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.javaeye.com/to
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]java.lang.IllegalArgumentException: id to load is required for loading</title>
+    <link href="https://carygao.github.io/2009/10/24/%E5%8E%9F-java-lang-IllegalArgumentException-id-to-load-is-required-for-loading/"/>
+    <id>https://carygao.github.io/2009/10/24/原-java-lang-IllegalArgumentException-id-to-load-is-required-for-loading/</id>
+    <published>2009-10-24T03:11:00.000Z</published>
+    <updated>2016-03-04T02:00:02.000Z</updated>
+    
+    <content type="html">&lt;p&gt;2009-10-24 10:58:57 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;/p&gt;
+&lt;p&gt;严重: &amp;gt;&amp;gt;java.lang.IllegalArgumentException: id to load is required for loading&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at org.hibernate.event.LoadEvent.&amp;lt;init&amp;gt;(LoadEvent.java:51)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at org.hibernate.event.LoadEvent.&amp;lt;init&amp;gt;(LoadEvent.java:33)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at org.hibernate.impl.SessionImpl.get(SessionImpl.java:812)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at org.hibernate.impl.SessionImpl.get(SessionImpl.java:808)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at org.hibernate.ejb.AbstractEntityManagerImpl.find(AbstractEntityManagerImpl.java:182)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at java.lang.reflect.Method.invoke(Method.java:585)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:357)&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;…&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;原因:使用JPA时，当使用find(Class&amp;lt;T&amp;gt; clazz, Serializable id);此方法時，若id為空，則會出現以上錯誤。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/10/24 11:11:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4722370)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：4209 评论：1 [查看评论](http://blog.csdn.net/wherejaly/article/details/4722370#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2009-10-24 10:58:57 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;/p&gt;
+&lt;p&gt;严重: &amp;gt;&amp;gt;java.lang.IllegalArgumentException: id to load is required for loading&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 1 in XML document from class path resource</title>
+    <link href="https://carygao.github.io/2009/10/13/%E5%8E%9F-org-springframework-beans-factory-xml-XmlBeanDefinitionStoreException-Line-1-in-XML-document-from-class-path-resource/"/>
+    <id>https://carygao.github.io/2009/10/13/原-org-springframework-beans-factory-xml-XmlBeanDefinitionStoreException-Line-1-in-XML-document-from-class-path-resource/</id>
+    <published>2009-10-13T03:55:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 1 in XML document from class path resource [mo/com/sinokru/gxt/config] is invalid; nested exception is org.xml.sax.SAXParseException: Content is not allowed in prolog.&lt;br&gt;    at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)&lt;br&gt;    at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342)&lt;br&gt;    at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310)&lt;br&gt;    at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)&lt;br&gt;    at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)&lt;br&gt;    at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)&lt;br&gt;    at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)&lt;br&gt;    at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:92)&lt;br&gt;    at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:123)&lt;br&gt;    at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:423)&lt;br&gt;    at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:353)&lt;br&gt;    at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:255)&lt;br&gt;    at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:199)&lt;br&gt;    at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:45)&lt;br&gt;    at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:530)&lt;br&gt;    at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)&lt;br&gt;    at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1218)&lt;br&gt;    at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:500)&lt;br&gt;    at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:448)&lt;br&gt;    at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)&lt;br&gt;    at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)&lt;br&gt;    at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)&lt;br&gt;    at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)&lt;br&gt;    at org.mortbay.jetty.Server.doStart(Server.java:217)&lt;br&gt;    at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)&lt;br&gt;    at com.google.appengine.tools.development.JettyContainerService.startContainer(JettyContainerService.java:152)&lt;br&gt;    at com.google.appengine.tools.development.AbstractContainerService.startup(AbstractContainerService.java:116)&lt;br&gt;    at com.google.appengine.tools.development.DevAppServerImpl.start(DevAppServerImpl.java:218)&lt;br&gt;    at com.google.appengine.tools.development.gwt.AppEngineLauncher.start(AppEngineLauncher.java:86)&lt;br&gt;    at com.google.gwt.dev.HostedMode.doStartUpServer(HostedMode.java:365)&lt;br&gt;    at com.google.gwt.dev.HostedModeBase.startUp(HostedModeBase.java:589)&lt;br&gt;    at com.google.gwt.dev.HostedModeBase.run(HostedModeBase.java:397)&lt;br&gt;    at com.google.gwt.dev.HostedMode.main(HostedMode.java:232)&lt;/textarea&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/10/13 11:55:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4663162)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：1945 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/4663162#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 1 in XML 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]jcifs.smb.SmbException: NTLMv2 requires extended security</title>
+    <link href="https://carygao.github.io/2009/09/23/%E5%8E%9F-jcifs-smb-SmbException-NTLMv2-requires-extended-security/"/>
+    <id>https://carygao.github.io/2009/09/23/原-jcifs-smb-SmbException-NTLMv2-requires-extended-security/</id>
+    <published>2009-09-23T07:30:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;錯誤日志:&lt;/p&gt;
+&lt;textarea cols=&quot;89&quot; rows=&quot;9&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;jcifs.smb.SmbException: NTLMv2 requires extended security (jcifs.smb.client.useExtendedSecurity must be true if jcifs.smb.lmCompatibility &amp;gt;= 3)&lt;br&gt;    jcifs.smb.NtlmPasswordAuthentication.getSigningKey(NtlmPasswordAuthentication.java:474)&lt;br&gt;    jcifs.smb.SmbSession.sessionSetup(SmbSession.java:295)&lt;br&gt;    jcifs.smb.SmbSession.send(SmbSession.java:234)&lt;br&gt;    jcifs.smb.SmbTree.treeConnect(SmbTree.java:161)&lt;br&gt;    jcifs.smb.SmbSession.logon(SmbSession.java:170)&lt;br&gt;    jcifs.smb.SmbSession.logon(SmbSession.java:163)&lt;br&gt;&lt;/textarea&gt; 
+
+&lt;p&gt;錯誤原因:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在使用NTLM与Spring Security时遇到上述问题,尚且不明白具体产生原因,初步估计是NTLM的Security与Spring Security有所冲突,参考资料发现做如下配置文件变动可解决问题.&lt;/p&gt;
+&lt;textarea cols=&quot;87&quot; rows=&quot;10&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;        &amp;lt;init-param&amp;gt;&lt;br&gt;            &amp;lt;param-name&amp;gt;jcifs.smb.lmCompatibility&amp;lt;/param-name&amp;gt;&lt;br&gt;            &amp;lt;param-value&amp;gt;0&amp;lt;/param-value&amp;gt;&lt;br&gt;        &amp;lt;/init-param&amp;gt;&lt;br&gt;        &amp;lt;init-param&amp;gt;&lt;br&gt;            &amp;lt;param-name&amp;gt;&lt;br&gt;                jcifs.smb.client.useExtenededSecurity&lt;br&gt;            &amp;lt;/param-name&amp;gt;&lt;br&gt;            &amp;lt;param-value&amp;gt;false&amp;lt;/param-value&amp;gt;&lt;br&gt;        &amp;lt;/init-param&amp;gt;&lt;/textarea&gt; 
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;参考&lt;a href=&quot;http://lists.samba.org/archive/jcifs/2009-January/008356.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://lists.samba.org/archive/jcifs/2009-January/008356.html&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/9/23 15:30:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4584517)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：3859 评论：1 [查看评论](http://blog.csdn.net/wherejaly/article/details/4584517#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;錯誤日志:&lt;/p&gt;
+&lt;textarea cols=&quot;89&quot; rows=&quot;9&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;jcifs.smb.SmbException: NTLMv2 requires extended security (jcifs.smb.clie
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]java.lang.IllegalArgumentException: node to traverse cannot be null!</title>
+    <link href="https://carygao.github.io/2009/09/12/%E5%8E%9F-java-lang-IllegalArgumentException-node-to-traverse-cannot-be-null/"/>
+    <id>https://carygao.github.io/2009/09/12/原-java-lang-IllegalArgumentException-node-to-traverse-cannot-be-null/</id>
+    <published>2009-09-12T01:56:00.000Z</published>
+    <updated>2016-03-04T02:00:16.000Z</updated>
+    
+    <content type="html">&lt;p&gt;錯誤日志:&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;textarea cols=&quot;89&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;严重: &amp;gt;&amp;gt;java.lang.IllegalArgumentException: node to traverse cannot be null!&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.engine.query.HQLQueryPlan.&amp;lt;init&amp;gt;(HQLQueryPlan.java:77)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.engine.query.HQLQueryPlan.&amp;lt;init&amp;gt;(HQLQueryPlan.java:56)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; 
+
+&lt;p&gt;錯誤原因:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 通常此类错误都是由于HQL语句写的不正确,例如from写成了form,或者set A = 1 and B = 2,其中set不同字段用逗号”,”分离而不是用and.总之仔细检查HQL语句,看看有没有语法错误即可.&lt;/p&gt;
+&lt;p&gt;参考:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=&quot;http://geeklondon.com/blog/view/pesky-syntax&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://geeklondon.com/blog/view/pesky-syntax&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/9/12 9:56:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4545180)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：5930 评论：6 [查看评论](http://blog.csdn.net/wherejaly/article/details/4545180#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;錯誤日志:&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]java.sql.SQLException: ORA-01799: a column may not be outer-joined to a subquery</title>
+    <link href="https://carygao.github.io/2009/09/10/%E5%8E%9F-java-sql-SQLException-ORA-01799-a-column-may-not-be-outer-joined-to-a-subquery/"/>
+    <id>https://carygao.github.io/2009/09/10/原-java-sql-SQLException-ORA-01799-a-column-may-not-be-outer-joined-to-a-subquery/</id>
+    <published>2009-09-10T08:18:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;textarea cols=&quot;86&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;Caused by: java.sql.SQLException: ORA-01799: a column may not be outer-joined to a subquery&lt;br&gt;&lt;br&gt;    at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:111)&lt;br&gt;    at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:330)&lt;br&gt;    at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:287)&lt;br&gt;    at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:742)&lt;br&gt;    at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)&lt;br&gt;    at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:798)&lt;br&gt;    at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1038)&lt;br&gt;    at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:838)&lt;br&gt;    at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1131)&lt;br&gt;    at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3284)&lt;br&gt;    at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3328)&lt;br&gt;    at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:93)&lt;br&gt;    at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:186)&lt;br&gt;    at org.hibernate.loader.Loader.getResultSet(Loader.java:1787)&lt;br&gt;    at org.hibernate.loader.Loader.doQuery(Loader.java:674)&lt;br&gt;    at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:236)&lt;br&gt;    at org.hibernate.loader.Loader.doList(Loader.java:2213)&lt;br&gt;    … 32 more&lt;br&gt;&lt;/textarea&gt;
+
+&lt;p&gt;错误原因:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Oracle禁止在outer join后使用子查询,参考&lt;a href=&quot;http://forums.oracle.com/forums/thread.jspa?threadID=945104&amp;amp;tstart=0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://forums.oracle.com/forums/thread.jspa?threadID=945104&amp;amp;tstart=0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Presumably, Oracle has decided that the 9i behavior was incorrect– you are doing an outer join to a subquery, which isn’t allowed. The 9.2.0.1 parser didn’t notice the error. Presumably, you’re getting lucky and Oracle generates the correct output. But presumably the optimizer doesn’t know how to handle this properly in all cases, so Oracle disallows it. The 10.2.0.4 behavior appears to be correct from Oracle’s standpoint– you’ll need to refactor the code to avoid doing an outer join to a subquery.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;翻译:据推测,Oracle 9i明白这种行为是错误的(你在outer join后使用子查询),但是9.2.0.1解析器没有提示这种错误,据推测,你非常幸运的生成了正确的输出.但是并不适用于所有情况.所以Oracle禁止这种操作.在10.2.0.4版本Oracle正确的拒绝这种操作,你应该重构你的代码来避免使用outer join后加入子查询.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;参考2 &lt;a href=&quot;Oracle安装/配置/入门&quot;&gt;http://www.oracle.com.cn/viewthread.php?tid=34336&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ERROR at line 4:&lt;/p&gt;
+&lt;p&gt;ORA-01799: a column may not be outer-joined to a subquery&lt;br&gt;As a work around, you can use an inline view to achieve the desired effect: &lt;/p&gt;
+&lt;p&gt;SELECT E.LNAME&lt;/p&gt;
+&lt;p&gt;FROM EMPLOYEE E,&lt;/p&gt;
+&lt;p&gt;(SELECT DEPT_ID FROM DEPARTMENT WHERE NAME = ‘ACCOUNTING’) V&lt;/p&gt;
+&lt;p&gt;WHERE E.DEPT_ID (+) = V.DEPT_ID;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/9/10 16:18:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4539583)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：1937 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/4539583#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;textarea cols=&quot;86&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;Caused by: java.sql.SQLException: ORA-01799: a column may not be outer-joined to a su
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]java.sql.BatchUpdateException: ORA-02291: integrity constraint</title>
+    <link href="https://carygao.github.io/2009/08/31/%E5%8E%9F-java-sql-BatchUpdateException-ORA-02291-integrity-constraint/"/>
+    <id>https://carygao.github.io/2009/08/31/原-java-sql-BatchUpdateException-ORA-02291-integrity-constraint/</id>
+    <published>2009-08-31T04:07:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;錯誤日志:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;textarea cols=&quot;88&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;[31 12:02:03,906 WARN ] [Thread-11] util.JDBCExceptionReporter - SQL Error: 2291, SQLState: 23000&lt;br&gt;2009-8-31 12:02:04 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;br&gt;严重: &amp;gt;&amp;gt;org.springframework.dao.DataIntegrityViolationException: Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update&lt;br&gt;&amp;gt;&amp;gt;org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update&lt;br&gt;[SQL: 2291, 23000]&lt;br&gt;&amp;gt;&amp;gt;java.sql.BatchUpdateException: ORA-02291: integrity constraint (SGVD.TFACTCANCELLI_FK61247830083984) violated - parent key not found&lt;br&gt;&amp;gt;&amp;gt;&lt;br&gt;&amp;gt;&amp;gt;    at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:342)&lt;br&gt;&amp;gt;&amp;gt;    at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:10656)&lt;br&gt;&amp;gt;&amp;gt;    at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:246)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;錯誤分析:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 从字面来看,此错误为外键约束错误,经过检查发现,某字段在数据库中设置外键与Hibernate中引用的表对象不同而导致错误.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/8/31 12:07:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4502696)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：4967 评论：1 [查看评论](http://blog.csdn.net/wherejaly/article/details/4502696#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;錯誤日志:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;textarea cols=&quot;88&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;[31 12:02:03,906 WARN ] [Thread-11] ut
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]org.hibernate.QueryException: query specified join fetching, but the owner of the fetched association was not present in the sel</title>
+    <link href="https://carygao.github.io/2009/08/21/%E5%8E%9F-org-hibernate-QueryException-query-specified-join-fetching-but-the-owner-of-the-fetched-association-was-not-present-in-the-sel/"/>
+    <id>https://carygao.github.io/2009/08/21/原-org-hibernate-QueryException-query-specified-join-fetching-but-the-owner-of-the-fetched-association-was-not-present-in-the-sel/</id>
+    <published>2009-08-21T01:50:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;错误日志:&lt;/p&gt;
+&lt;textarea cols=&quot;91&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;2009-8-20 12:17:56 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;br&gt;严重: &amp;gt;&amp;gt;java.lang.IllegalArgumentException: org.hibernate.QueryException: query specified join fetching, but the owner of the fetched association was not present in the select list [FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=SGVD.TPROFILE,tableAlias=tprofile1&lt;em&gt;,origin=SGVD.TPROFILEPERSON tprofilepe0&lt;/em&gt;,colums={tprofilepe0&lt;em&gt;.PROFILEID ,className=mo.org.sgvd.domain.Tprofile}}] [SELECT pfp.tprofile FROM mo.org.sgvd.domain.Tprofileperson pfp left join fetch pfp.tprofile WHERE pfp.tperson.personid = 114]&lt;br&gt;&amp;gt;&amp;gt;org.hibernate.QueryException: query specified join fetching, but the owner of the fetched association was not present in the select list [FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=SGVD.TPROFILE,tableAlias=tprofile1&lt;/em&gt;,origin=SGVD.TPROFILEPERSON tprofilepe0&lt;em&gt;,colums={tprofilepe0&lt;/em&gt;.PROFILEID ,className=mo.org.sgvd.domain.Tprofile}}] [SELECT pfp.tprofile FROM mo.org.sgvd.domain.Tprofileperson pfp left join fetch pfp.tprofile WHERE pfp.tperson.personid = 114]&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.tree.SelectClause.initializeExplicitSelectClause(SelectClause.java:195)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.HqlSqlWalker.useSelectClause(HqlSqlWalker.java:705)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.HqlSqlWalker.processQuery(HqlSqlWalker.java:529)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:645)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:281)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; 
+
+&lt;p&gt;错误原因分析:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 首先看HQL语句:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT pfp.tprofile FROM Tprofileperson pfp left join fetch pfp.tprofile WHERE pfp.tperson.personid = 114&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 此处我希望加载Tprofileperson下的tprofile,而我使用了fetch来立即抓取tprofile,错误就在这里.如果你使用fetch,那么fetch左边的连接对象(拥有者)一定要出现在select后,例如将上面改为select pfp… 这样就会执行正常,因为使用了fetch,Hibernate就会将需要fetch的对象(Tprofile)立即加载在父对象(Tprofileperson)中,而我的select确只是列出子对象,而拥有者(Tprofileperson)并没有present(出席在结果集中),那么就会出现以上错误.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 下面我们看另外会出现同样错误的语句:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;textarea cols=&quot;50&quot; rows=&quot;3&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;01: select person from Person as person&lt;br&gt;02: left join person.address as address&lt;br&gt;03: left join fetch address.country as country&lt;/textarea&gt; &lt;/p&gt;
+&lt;p&gt;你可以看到在第3行使用了fetch,而第2行确没有使用fetch,那么第3行fetch的拥有者address并没有立即被抓取,这就会导致同样的错误,将第2行中的join后加上fetch,即可解决问题.&lt;/p&gt;
+&lt;p&gt;总结:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 如果使用了fetch,那么拥有者一定要present,也就是对象一定要被加载出来&lt;/p&gt;
+&lt;p&gt;参考资料:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=&quot;http://lamnguyenblog.com/2008/10/common-hibernate-errors-and-causes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://lamnguyenblog.com/2008/10/common-hibernate-errors-and-causes/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=&quot;http://www.google.com/custom?hl=en&amp;amp;lr=&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=pub-2698861478625135&amp;amp;cof=FORID%3A1%3BGL%3A1%3BLBGC%3A336699%3BLC%3A%230000ff%3BVLC%3A%23663399%3BGFNT%3A%230000ff%3BGIMP%3A%230000ff%3BDIV%3A%23336699%3B&amp;amp;q=org.hibernate.QueryException%3A+query+specified+join+fetching%2C+but+the+owner+of+the+fetched+association+was+not+present+in+the+select+list&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.google.com/custom?hl=en&amp;amp;lr=&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=pub-2698861478625135&amp;amp;cof=FORID%3A1%3BGL%3A1%3BLBGC%3A336699%3BLC%3A%230000ff%3BVLC%3A%23663399%3BGFNT%3A%230000ff%3BGIMP%3A%230000ff%3BDIV%3A%23336699%3B&amp;amp;q=org.hibernate.QueryException%3A+query+specified+join+fetching%2C+but+the+owner+of+the+fetched+association+was+not+present+in+the+select+list&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/8/21 9:50:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4468772)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：5100 评论：4 [查看评论](http://blog.csdn.net/wherejaly/article/details/4468772#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;错误日志:&lt;/p&gt;
+&lt;textarea cols=&quot;91&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;2009-8-20 12:17:56 org.zkoss.zk.ui.impl.UiEngineImpl handleE
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[原]java.lang.NullPointerException</title>
+    <link href="https://carygao.github.io/2009/08/19/%E5%8E%9F-java-lang-NullPointerException/"/>
+    <id>https://carygao.github.io/2009/08/19/原-java-lang-NullPointerException/</id>
+    <published>2009-08-19T08:39:00.000Z</published>
+    <updated>2016-03-02T04:13:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;异常日志:&lt;/p&gt;
+&lt;textarea cols=&quot;90&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;严重: &amp;gt;&amp;gt;java.lang.NullPointerException&lt;br&gt;&amp;gt;&amp;gt;    at mo.org.sgvd.ui.convert.ConvertListboxToLong.coerceToUi(ConvertListboxToLong.java:33)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.Binding.myLoadAttribute(Binding.java:299)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.Binding.loadAttribute(Binding.java:279)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.loadAllBindings(DataBinder.java:1472)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.myLoadAllNodes(DataBinder.java:1375)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.myLoadAllNodes(DataBinder.java:1384)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; 
+
+&lt;p&gt;异常原因分析:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 这是笔者在工作中遇到最多的异常,其主要原因是因为一个为空的对象调用方法而导致的.例如:&lt;/p&gt;
+&lt;textarea cols=&quot;21&quot; rows=&quot;2&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;Object obj = null;&lt;br&gt;obj.toString();&lt;/textarea&gt; 
+
+&lt;p&gt;这个简单的例子中,obj为空对象,然后紧接着调用其toString();方法,就会导致以上异常.在日常工作中要十分注意此类问题,比如写了一些方法,某些参数如果为空,就会导致空指针异常,所以尽量在注释上标明此参数不能为空.或者加入为空判断,例如以上例子改写为:&lt;/p&gt;
+&lt;textarea cols=&quot;50&quot; rows=&quot;6&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;Object obj = null;&lt;br&gt;if(obj != null) {&lt;br&gt;   obj.toString();&lt;br&gt;} else {&lt;br&gt;   //执行另外一些操作&lt;br&gt;}&lt;/textarea&gt; 
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
+    作者：wherejaly 发表于2009/8/19 16:39:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4463557)
+&amp;lt;/div&amp;gt;
+&amp;lt;div&amp;gt;
+阅读：642 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/4463557#comments)
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;异常日志:&lt;/p&gt;
+&lt;textarea cols=&quot;90&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;严重: &amp;gt;&amp;gt;java.lang.NullPointerException&lt;br&gt;&amp;gt;&amp;gt;    at
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

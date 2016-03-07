@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://carygao.github.io/"/>
-  <updated>2016-03-04T09:00:09.212Z</updated>
+  <updated>2016-03-07T04:34:57.353Z</updated>
   <id>https://carygao.github.io/</id>
   
   <author>
@@ -16,11 +16,53 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo安装教程(一)</title>
+    <link href="https://carygao.github.io/2016/03/07/Hexo%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B-%E4%B8%80/"/>
+    <id>https://carygao.github.io/2016/03/07/Hexo安装教程-一/</id>
+    <published>2016-03-07T04:14:39.000Z</published>
+    <updated>2016-03-07T04:34:57.353Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;什么是Hexo&quot;&gt;&lt;a href=&quot;#什么是Hexo&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo?&quot;&gt;&lt;/a&gt;什么是Hexo?&lt;/h2&gt;&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt;（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
+&lt;h2 id=&quot;Hexo安装环境&quot;&gt;&lt;a href=&quot;#Hexo安装环境&quot; class=&quot;headerlink&quot; title=&quot;Hexo安装环境&quot;&gt;&lt;/a&gt;Hexo安装环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Windows7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Hexo安装步骤概览&quot;&gt;&lt;a href=&quot;#Hexo安装步骤概览&quot; class=&quot;headerlink&quot; title=&quot;Hexo安装步骤概览&quot;&gt;&lt;/a&gt;Hexo安装步骤概览&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;安装node.js&lt;/li&gt;
+&lt;li&gt;安装github desktop&lt;/li&gt;
+&lt;li&gt;安装hexo&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;开始安装&quot;&gt;&lt;a href=&quot;#开始安装&quot; class=&quot;headerlink&quot; title=&quot;开始安装&quot;&gt;&lt;/a&gt;开始安装&lt;/h2&gt;&lt;h3 id=&quot;安装node-js&quot;&gt;&lt;a href=&quot;#安装node-js&quot; class=&quot;headerlink&quot; title=&quot;安装node.js&quot;&gt;&lt;/a&gt;安装node.js&lt;/h3&gt;&lt;p&gt;Hexo依赖node.js,所以点击&lt;a href=&quot;http://nodejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;node.js&lt;/a&gt;下载最新稳定版本，我的版本为v5.7.1 stable。&lt;/p&gt;
+&lt;h3 id=&quot;安装git&quot;&gt;&lt;a href=&quot;#安装git&quot; class=&quot;headerlink&quot; title=&quot;安装git&quot;&gt;&lt;/a&gt;安装git&lt;/h3&gt;&lt;p&gt;也可以直接安装&lt;a href=&quot;http://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;git&lt;/a&gt;工具，但我建议下载&lt;a href=&quot;https://desktop.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github desktop&lt;/a&gt;，因为提供了很多方便的图形化工具，如果仓库放在github上会非常方便。&lt;/p&gt;
+&lt;h3 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h3&gt;&lt;p&gt;打开命令行，输入以下命令即可安装hexo(注意npm依赖node.js)&lt;br&gt;&lt;code&gt;$ npm install -g hexo-cli&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;什么是Hexo&quot;&gt;&lt;a href=&quot;#什么是Hexo&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo?&quot;&gt;&lt;/a&gt;什么是Hexo?&lt;/h2&gt;&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
+&lt;h2 id=&quot;Hexo安装环境&quot;&gt;&lt;a href=&quot;#Hexo安装环境&quot; class=&quot;headerlink&quot; title=&quot;Hexo安装环境&quot;&gt;&lt;/a&gt;Hexo安装环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Windows7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Hexo安装步骤概览&quot;&gt;&lt;a href=&quot;#Hexo安装步骤概览&quot; class=&quot;headerlink&quot; title=&quot;Hexo安装步骤概览&quot;&gt;&lt;/a&gt;Hexo安装步骤概览&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;安装node.js&lt;/li&gt;
+&lt;li&gt;安装github desktop&lt;/li&gt;
+&lt;li&gt;安装hexo
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://carygao.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://carygao.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>随笔</title>
     <link href="https://carygao.github.io/2016/03/04/%E9%9A%8F%E7%AC%94/"/>
     <id>https://carygao.github.io/2016/03/04/随笔/</id>
     <published>2016-03-04T08:55:33.000Z</published>
-    <updated>2016-03-04T09:00:09.212Z</updated>
+    <updated>2016-03-07T03:52:29.635Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/resources/164646181173681758.jpg&quot; alt=&quot;澳门&quot;&gt;&lt;br&gt;&lt;em&gt;没有人是天才，个人的才能是靠自己挖掘的，登上山顶，望望身后已看不见的芸芸众生，回过头来，还需要继续向上。生活本不是闲情逸致，它本就是丑陋的，这个世界不会因为谁的离开就停止送给你恶意。我们唯一要学会的就是战斗，即使遇到困难，我们也要独自无谓的战斗下去。&lt;/em&gt;&lt;/p&gt;
 </content>
@@ -43,7 +85,7 @@
     <link href="https://carygao.github.io/2016/03/03/ORA-01882-timezone-region/"/>
     <id>https://carygao.github.io/2016/03/03/ORA-01882-timezone-region/</id>
     <published>2016-03-03T08:47:02.000Z</published>
-    <updated>2016-03-03T10:29:20.201Z</updated>
+    <updated>2016-03-07T03:52:29.552Z</updated>
     
     <content type="html">&lt;h2 id=&quot;错误日志：&quot;&gt;&lt;a href=&quot;#错误日志：&quot; class=&quot;headerlink&quot; title=&quot;错误日志：&quot;&gt;&lt;/a&gt;错误日志：&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ORA-01882: timezone region&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;用weblogic配置连接池连到oracle时报错&lt;/p&gt;
@@ -75,7 +117,7 @@
     <link href="https://carygao.github.io/2010/08/18/%E5%8E%9F-%E5%A6%82%E4%BD%95%E5%B0%86UITableViewDelegate%E5%92%8CUITableViewDataSource%E4%BB%8EUITableViewController%E4%B8%AD%E5%88%86%E7%A6%BB%E5%87%BA%E6%9D%A5/"/>
     <id>https://carygao.github.io/2010/08/18/原-如何将UITableViewDelegate和UITableViewDataSource从UITableViewController中分离出来/</id>
     <published>2010-08-18T08:21:00.000Z</published>
-    <updated>2016-03-04T02:18:42.000Z</updated>
+    <updated>2016-03-07T03:52:29.613Z</updated>
     
     <content type="html">&lt;p&gt;大家都知道如果给&lt;code&gt;UITableViewController&lt;/code&gt;装载一些数据和控制cell的行为(高度,样式等)都需要指定&lt;code&gt;UITableView&lt;/code&gt;的delegate给自身,一般会使用IB或者在&lt;code&gt;viewDidLoad&lt;/code&gt;中写上&lt;code&gt;self.tableView.delegate = self;&lt;/code&gt;然后实现&lt;code&gt;UITableViewDelegate&lt;/code&gt;和&lt;code&gt;UITableViewDataSource&lt;/code&gt;中的方法,例如:&lt;code&gt;-tableView:cellForRowAtIndexPath:&lt;/code&gt; 等等.&lt;br&gt;那么如何将实现&lt;code&gt;UITableViewDelegate&lt;/code&gt;和&lt;code&gt;UITableViewDataSource&lt;/code&gt;的方法脱离出来单独放在一个新的class中呢?&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;第一步-建立TableDataDelegate&quot;&gt;&lt;a href=&quot;#第一步-建立TableDataDelegate&quot; class=&quot;headerlink&quot; title=&quot;第一步:建立TableDataDelegate&quot;&gt;&lt;/a&gt;第一步:建立TableDataDelegate&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;TableDataDelegate.h&lt;/strong&gt;&lt;/p&gt;
@@ -118,7 +160,7 @@
     <link href="https://carygao.github.io/2010/05/26/%E5%8E%9F-%E5%A6%82%E4%BD%95%E7%A7%BB%E5%8A%A8%E7%BB%84%E4%BB%B6%E7%9A%84%E4%BD%8D%E7%BD%AE%EF%BC%8C%E4%BE%8B%E5%A6%82%E5%A6%82%E4%BD%95%E5%B0%86UIAlertView%E6%98%BE%E7%A4%BA%E5%9C%A8%E5%B1%8F%E5%B9%95%E4%B8%8A%E9%83%A8/"/>
     <id>https://carygao.github.io/2010/05/26/原-如何移动组件的位置，例如如何将UIAlertView显示在屏幕上部/</id>
     <published>2010-05-26T08:59:00.000Z</published>
-    <updated>2016-03-04T02:01:02.000Z</updated>
+    <updated>2016-03-07T03:52:29.616Z</updated>
     
     <content type="html">&lt;p&gt;苹果自带的警告框非常好用，但是它总是显示在屏幕中间，我们如何将它的位置移动呢？从Iphone SDK3开始我们可以使用CGAffineTransformTranslate&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -146,7 +188,7 @@
     <link href="https://carygao.github.io/2010/05/12/%E5%8E%9F-%E5%A6%82%E4%BD%95%E5%9C%A8navigationBar%E7%9A%84%E4%B8%AD%E9%97%B4%E6%B7%BB%E5%8A%A0%E4%B8%80%E5%BC%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BE%E7%89%87%EF%BC%9F/"/>
     <id>https://carygao.github.io/2010/05/12/原-如何在navigationBar的中间添加一张自定义图片？/</id>
     <published>2010-05-12T06:51:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.609Z</updated>
     
     <content type="html">&lt;p&gt;以下代码展示了如何在navigationBar中间添加一张自定义图片&lt;/p&gt;
 &lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;UIImage &lt;em&gt;image = [UIImage imageNamed: @”NavBarImage.png”];&lt;br&gt;UIImageView &lt;/em&gt;imageView = [[UIImageView alloc] initWithImage: image];&lt;br&gt;self.navigationItem.titleView = imageView;&lt;br&gt;[imageView release];&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
@@ -174,7 +216,7 @@
     <link href="https://carygao.github.io/2010/05/06/%E5%8E%9F-%E5%A6%82%E4%BD%95%E7%BB%99%E7%BB%84%E4%BB%B6%E6%B7%BB%E5%8A%A0%E4%BA%8B%E4%BB%B6%E5%B9%B6%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0/"/>
     <id>https://carygao.github.io/2010/05/06/原-如何给组件添加事件并传递参数/</id>
     <published>2010-05-06T07:18:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.619Z</updated>
     
     <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; 我们以UIButton为demo&lt;/p&gt;
 &lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(buttonX, buttonY, width, height)];&lt;br&gt;//给button添加点击事件，action参数中写入事件执行方法&lt;br&gt;[button addTarget:self action:@selector(action:) forControlEvents:UIControlEventTouchUpInside];&lt;br&gt;//在button的tag中添加你需要传递的参数，目前资料中只有这种方法&lt;br&gt;//你可以传入任意类型的参数&lt;br&gt;[button setTag:100];&lt;br&gt;//下面是action方法&lt;br&gt;-(void)action:(id)sender{&lt;br&gt;//这个sender其实就是UIButton，因此通过sender.tag就可以拿到刚才的参数&lt;br&gt;    int i = [sender tag];&lt;br&gt;}&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
@@ -202,7 +244,7 @@
     <link href="https://carygao.github.io/2010/04/30/%E5%8E%9F-%E5%A6%82%E4%BD%95%E8%BD%AC%E6%8D%A2NSString%E4%B8%8ENSDate/"/>
     <id>https://carygao.github.io/2010/04/30/原-如何转换NSString与NSDate/</id>
     <published>2010-04-30T03:47:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.622Z</updated>
     
     <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; 想要在NSString与NSDate之间进行转换，答案是使用NSDateFormatter,该类提供了&amp;ndash; dateFromString: 和&amp;ndash; stringFromDate:两个关键的方法，具体使用请看如下代码：&lt;/p&gt;
 &lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;cpp&quot;&gt;NSDateFormatter &lt;em&gt;formatter = [[NSDateFormatter alloc] init];&lt;br&gt;[formatter setDateFormat:@”yyyy”];&lt;br&gt;//Optionally for time zone converstions&lt;br&gt;[formatter setTimeZone:[NSTimeZone timeZoneWithName:@”…”]];&lt;br&gt;NSString &lt;/em&gt;stringFromDate = [formatter stringFromDate:myNSDateInstance];&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
@@ -229,7 +271,7 @@
     <link href="https://carygao.github.io/2010/04/28/%E5%8E%9F-%E6%80%8E%E6%A0%B7%E5%B0%86UIImage%E5%AF%B9%E8%B1%A1%E4%BF%9D%E5%AD%98%E5%88%B0JPG%E6%88%96%E8%80%85PNG%E6%96%87%E4%BB%B6%E4%B8%AD%EF%BC%9F/"/>
     <id>https://carygao.github.io/2010/04/28/原-怎样将UIImage对象保存到JPG或者PNG文件中？/</id>
     <published>2010-04-28T03:54:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.625Z</updated>
     
     <content type="html">&lt;p&gt;我们都知道如果要从data中或者file中读取数据并包装成UIImage可以使用+ imageWithData:&amp;nbsp;和+&amp;nbsp;imageWithContentsOfFile: 但如果想把UIImage的图片数据写入到jpg或者png格式的文件中呢？答案是UIImageJPEGRepresentation，请看如下代码&lt;/p&gt;
 &lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;cpp&quot;&gt;/ Create paths to output images&lt;br&gt;NSString  &lt;em&gt;pngPath = [NSHomeDirectory() stringByAppendingPathComponent:@”Documents/Test.png”];&lt;br&gt;NSString  &lt;/em&gt;jpgPath = [NSHomeDirectory() stringByAppendingPathComponent:@”Documents/Test.jpg”];&lt;/textarea&gt;&lt;/p&gt;
@@ -262,7 +304,7 @@
     <link href="https://carygao.github.io/2010/04/27/%E5%8E%9F-Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E6%90%9C%E9%9B%86-%E4%B8%8D%E6%96%AD%E6%9B%B4%E6%96%B0/"/>
     <id>https://carygao.github.io/2010/04/27/原-Eclipse快捷键大搜集-不断更新/</id>
     <published>2010-04-27T03:14:00.000Z</published>
-    <updated>2016-03-04T01:59:48.000Z</updated>
+    <updated>2016-03-07T03:52:29.555Z</updated>
     
     <content type="html">&lt;p&gt;&lt;/p&gt;&lt;p&gt;Eclipse快捷键大全&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -462,7 +504,7 @@
     <link href="https://carygao.github.io/2010/04/27/%E5%8E%9F-Xcode%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E6%90%9C%E9%9B%86-%E4%B8%8D%E6%96%AD%E6%9B%B4%E6%96%B0/"/>
     <id>https://carygao.github.io/2010/04/27/原-Xcode快捷键大搜集-不断更新/</id>
     <published>2010-04-27T03:01:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.558Z</updated>
     
     <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;如果想要练成独孤九剑,出招快是第一秘诀,所以想要提高开发速度,从省时间的角度,第一位要解决的就是使用快捷键来代替一些繁琐的操作.于是本人搜集了众多快捷键,并不断更新,力求完美.&lt;/p&gt;
 &lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;c-sharp&quot;&gt;alt+cmd   +上&lt;br&gt;alt+cmd   +左／右 （sdk3.0之后有不同）&lt;br&gt;alt+左/右&lt;br&gt;control+左/右&lt;br&gt;cmd＋左/右&lt;br&gt;alt+shift+左/右&lt;br&gt;control+shift+左/右&lt;br&gt;cmd＋shift+左/右&lt;br&gt;control+shift+e&lt;br&gt;alt+delete&lt;br&gt;control+ delete&lt;br&gt;cmd＋delete&lt;br&gt;shift+cmd+r&lt;br&gt;shift+cmd+f&lt;br&gt;cmd+k&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
@@ -489,7 +531,7 @@
     <link href="https://carygao.github.io/2010/04/26/%E5%8E%9F-%E6%80%8E%E6%A0%B7%E8%8E%B7%E5%BE%97documents%E6%96%87%E4%BB%B6%E5%A4%B9%E4%BB%A5%E5%8F%8A%E4%B8%BA%E6%96%87%E4%BB%B6%E6%94%B9%E5%90%8D/"/>
     <id>https://carygao.github.io/2010/04/26/原-怎样获得documents文件夹以及为文件改名/</id>
     <published>2010-04-26T07:29:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.629Z</updated>
     
     <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;可以使用c函数NSSearchPathForDirectoriesInDomain来查找各种目录。它是Foundation函数，因此它可以与Cocoa for Mac OS X共享。它的很多可用选项都是专门为OS X设计的，在iphone上不会返回任何值。其原因在于，这些位置并不存在于iphone（如Downloads文件夹）上，或者你的应用程序由于iPhone的沙盒机制而没有访问该位置的权限。&lt;/p&gt;
 &lt;p&gt;&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;cpp&quot;&gt;    NSArray &lt;em&gt;paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);&lt;br&gt;    NSString &lt;/em&gt;documentsDirectory = [paths objectAtIndex:0];&lt;/textarea&gt;&amp;nbsp;&lt;/p&gt;
@@ -519,7 +561,7 @@
     <link href="https://carygao.github.io/2009/12/19/%E8%BD%AC-GPL%E5%8D%8F%E8%AE%AE%E7%9A%84%E9%80%82%E7%94%A8%E8%8C%83%E5%9B%B4/"/>
     <id>https://carygao.github.io/2009/12/19/转-GPL协议的适用范围/</id>
     <published>2009-12-19T04:50:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.632Z</updated>
     
     <content type="html">&lt;p&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;本文转载至&lt;a href=&quot;http://www.javaeye.com/topic/188442&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.javaeye.com/topic/188442&lt;/a&gt; 由robbin大大发表&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -561,7 +603,7 @@
     <link href="https://carygao.github.io/2009/10/24/%E5%8E%9F-java-lang-IllegalArgumentException-id-to-load-is-required-for-loading/"/>
     <id>https://carygao.github.io/2009/10/24/原-java-lang-IllegalArgumentException-id-to-load-is-required-for-loading/</id>
     <published>2009-10-24T03:11:00.000Z</published>
-    <updated>2016-03-04T02:00:02.000Z</updated>
+    <updated>2016-03-07T03:52:29.560Z</updated>
     
     <content type="html">&lt;p&gt;2009-10-24 10:58:57 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;/p&gt;
 &lt;p&gt;严重: &amp;gt;&amp;gt;java.lang.IllegalArgumentException: id to load is required for loading&lt;/p&gt;
@@ -602,7 +644,7 @@
     <link href="https://carygao.github.io/2009/10/13/%E5%8E%9F-org-springframework-beans-factory-xml-XmlBeanDefinitionStoreException-Line-1-in-XML-document-from-class-path-resource/"/>
     <id>https://carygao.github.io/2009/10/13/原-org-springframework-beans-factory-xml-XmlBeanDefinitionStoreException-Line-1-in-XML-document-from-class-path-resource/</id>
     <published>2009-10-13T03:55:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.595Z</updated>
     
     <content type="html">&lt;textarea cols=&quot;50&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 1 in XML document from class path resource [mo/com/sinokru/gxt/config] is invalid; nested exception is org.xml.sax.SAXParseException: Content is not allowed in prolog.&lt;br&gt;    at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:404)&lt;br&gt;    at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342)&lt;br&gt;    at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310)&lt;br&gt;    at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)&lt;br&gt;    at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)&lt;br&gt;    at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)&lt;br&gt;    at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:124)&lt;br&gt;    at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:92)&lt;br&gt;    at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:123)&lt;br&gt;    at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:423)&lt;br&gt;    at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:353)&lt;br&gt;    at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:255)&lt;br&gt;    at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:199)&lt;br&gt;    at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:45)&lt;br&gt;    at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:530)&lt;br&gt;    at org.mortbay.jetty.servlet.Context.startContext(Context.java:135)&lt;br&gt;    at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1218)&lt;br&gt;    at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:500)&lt;br&gt;    at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:448)&lt;br&gt;    at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)&lt;br&gt;    at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)&lt;br&gt;    at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)&lt;br&gt;    at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:117)&lt;br&gt;    at org.mortbay.jetty.Server.doStart(Server.java:217)&lt;br&gt;    at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:40)&lt;br&gt;    at com.google.appengine.tools.development.JettyContainerService.startContainer(JettyContainerService.java:152)&lt;br&gt;    at com.google.appengine.tools.development.AbstractContainerService.startup(AbstractContainerService.java:116)&lt;br&gt;    at com.google.appengine.tools.development.DevAppServerImpl.start(DevAppServerImpl.java:218)&lt;br&gt;    at com.google.appengine.tools.development.gwt.AppEngineLauncher.start(AppEngineLauncher.java:86)&lt;br&gt;    at com.google.gwt.dev.HostedMode.doStartUpServer(HostedMode.java:365)&lt;br&gt;    at com.google.gwt.dev.HostedModeBase.startUp(HostedModeBase.java:589)&lt;br&gt;    at com.google.gwt.dev.HostedModeBase.run(HostedModeBase.java:397)&lt;br&gt;    at com.google.gwt.dev.HostedMode.main(HostedMode.java:232)&lt;/textarea&gt;
 
@@ -628,7 +670,7 @@
     <link href="https://carygao.github.io/2009/09/23/%E5%8E%9F-jcifs-smb-SmbException-NTLMv2-requires-extended-security/"/>
     <id>https://carygao.github.io/2009/09/23/原-jcifs-smb-SmbException-NTLMv2-requires-extended-security/</id>
     <published>2009-09-23T07:30:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.588Z</updated>
     
     <content type="html">&lt;p&gt;錯誤日志:&lt;/p&gt;
 &lt;textarea cols=&quot;89&quot; rows=&quot;9&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;jcifs.smb.SmbException: NTLMv2 requires extended security (jcifs.smb.client.useExtendedSecurity must be true if jcifs.smb.lmCompatibility &amp;gt;= 3)&lt;br&gt;    jcifs.smb.NtlmPasswordAuthentication.getSigningKey(NtlmPasswordAuthentication.java:474)&lt;br&gt;    jcifs.smb.SmbSession.sessionSetup(SmbSession.java:295)&lt;br&gt;    jcifs.smb.SmbSession.send(SmbSession.java:234)&lt;br&gt;    jcifs.smb.SmbTree.treeConnect(SmbTree.java:161)&lt;br&gt;    jcifs.smb.SmbSession.logon(SmbSession.java:170)&lt;br&gt;    jcifs.smb.SmbSession.logon(SmbSession.java:163)&lt;br&gt;&lt;/textarea&gt; 
@@ -662,7 +704,7 @@
     <link href="https://carygao.github.io/2009/09/12/%E5%8E%9F-java-lang-IllegalArgumentException-node-to-traverse-cannot-be-null/"/>
     <id>https://carygao.github.io/2009/09/12/原-java-lang-IllegalArgumentException-node-to-traverse-cannot-be-null/</id>
     <published>2009-09-12T01:56:00.000Z</published>
-    <updated>2016-03-04T02:00:16.000Z</updated>
+    <updated>2016-03-07T03:52:29.563Z</updated>
     
     <content type="html">&lt;p&gt;錯誤日志:&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -695,7 +737,7 @@
     <link href="https://carygao.github.io/2009/09/10/%E5%8E%9F-java-sql-SQLException-ORA-01799-a-column-may-not-be-outer-joined-to-a-subquery/"/>
     <id>https://carygao.github.io/2009/09/10/原-java-sql-SQLException-ORA-01799-a-column-may-not-be-outer-joined-to-a-subquery/</id>
     <published>2009-09-10T08:18:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.585Z</updated>
     
     <content type="html">&lt;textarea cols=&quot;86&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;Caused by: java.sql.SQLException: ORA-01799: a column may not be outer-joined to a subquery&lt;br&gt;&lt;br&gt;    at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:111)&lt;br&gt;    at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:330)&lt;br&gt;    at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:287)&lt;br&gt;    at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:742)&lt;br&gt;    at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)&lt;br&gt;    at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:798)&lt;br&gt;    at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1038)&lt;br&gt;    at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:838)&lt;br&gt;    at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1131)&lt;br&gt;    at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3284)&lt;br&gt;    at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3328)&lt;br&gt;    at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:93)&lt;br&gt;    at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:186)&lt;br&gt;    at org.hibernate.loader.Loader.getResultSet(Loader.java:1787)&lt;br&gt;    at org.hibernate.loader.Loader.doQuery(Loader.java:674)&lt;br&gt;    at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:236)&lt;br&gt;    at org.hibernate.loader.Loader.doList(Loader.java:2213)&lt;br&gt;    … 32 more&lt;br&gt;&lt;/textarea&gt;
 
@@ -737,7 +779,7 @@
     <link href="https://carygao.github.io/2009/08/31/%E5%8E%9F-java-sql-BatchUpdateException-ORA-02291-integrity-constraint/"/>
     <id>https://carygao.github.io/2009/08/31/原-java-sql-BatchUpdateException-ORA-02291-integrity-constraint/</id>
     <published>2009-08-31T04:07:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.576Z</updated>
     
     <content type="html">&lt;p&gt;錯誤日志:&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;textarea cols=&quot;88&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;[31 12:02:03,906 WARN ] [Thread-11] util.JDBCExceptionReporter - SQL Error: 2291, SQLState: 23000&lt;br&gt;2009-8-31 12:02:04 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;br&gt;严重: &amp;gt;&amp;gt;org.springframework.dao.DataIntegrityViolationException: Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update&lt;br&gt;&amp;gt;&amp;gt;org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update&lt;br&gt;[SQL: 2291, 23000]&lt;br&gt;&amp;gt;&amp;gt;java.sql.BatchUpdateException: ORA-02291: integrity constraint (SGVD.TFACTCANCELLI_FK61247830083984) violated - parent key not found&lt;br&gt;&amp;gt;&amp;gt;&lt;br&gt;&amp;gt;&amp;gt;    at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:342)&lt;br&gt;&amp;gt;&amp;gt;    at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:10656)&lt;br&gt;&amp;gt;&amp;gt;    at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:246)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; &lt;/p&gt;
@@ -768,7 +810,7 @@
     <link href="https://carygao.github.io/2009/08/21/%E5%8E%9F-org-hibernate-QueryException-query-specified-join-fetching-but-the-owner-of-the-fetched-association-was-not-present-in-the-sel/"/>
     <id>https://carygao.github.io/2009/08/21/原-org-hibernate-QueryException-query-specified-join-fetching-but-the-owner-of-the-fetched-association-was-not-present-in-the-sel/</id>
     <published>2009-08-21T01:50:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
+    <updated>2016-03-07T03:52:29.591Z</updated>
     
     <content type="html">&lt;p&gt;错误日志:&lt;/p&gt;
 &lt;textarea cols=&quot;91&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;2009-8-20 12:17:56 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;br&gt;严重: &amp;gt;&amp;gt;java.lang.IllegalArgumentException: org.hibernate.QueryException: query specified join fetching, but the owner of the fetched association was not present in the select list [FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=SGVD.TPROFILE,tableAlias=tprofile1&lt;em&gt;,origin=SGVD.TPROFILEPERSON tprofilepe0&lt;/em&gt;,colums={tprofilepe0&lt;em&gt;.PROFILEID ,className=mo.org.sgvd.domain.Tprofile}}] [SELECT pfp.tprofile FROM mo.org.sgvd.domain.Tprofileperson pfp left join fetch pfp.tprofile WHERE pfp.tperson.personid = 114]&lt;br&gt;&amp;gt;&amp;gt;org.hibernate.QueryException: query specified join fetching, but the owner of the fetched association was not present in the select list [FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=SGVD.TPROFILE,tableAlias=tprofile1&lt;/em&gt;,origin=SGVD.TPROFILEPERSON tprofilepe0&lt;em&gt;,colums={tprofilepe0&lt;/em&gt;.PROFILEID ,className=mo.org.sgvd.domain.Tprofile}}] [SELECT pfp.tprofile FROM mo.org.sgvd.domain.Tprofileperson pfp left join fetch pfp.tprofile WHERE pfp.tperson.personid = 114]&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.tree.SelectClause.initializeExplicitSelectClause(SelectClause.java:195)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.HqlSqlWalker.useSelectClause(HqlSqlWalker.java:705)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.HqlSqlWalker.processQuery(HqlSqlWalker.java:529)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:645)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:281)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; 
@@ -798,41 +840,6 @@
     
       &lt;p&gt;错误日志:&lt;/p&gt;
 &lt;textarea cols=&quot;91&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;2009-8-20 12:17:56 org.zkoss.zk.ui.impl.UiEngineImpl handleE
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>[原]java.lang.NullPointerException</title>
-    <link href="https://carygao.github.io/2009/08/19/%E5%8E%9F-java-lang-NullPointerException/"/>
-    <id>https://carygao.github.io/2009/08/19/原-java-lang-NullPointerException/</id>
-    <published>2009-08-19T08:39:00.000Z</published>
-    <updated>2016-03-02T04:13:56.000Z</updated>
-    
-    <content type="html">&lt;p&gt;异常日志:&lt;/p&gt;
-&lt;textarea cols=&quot;90&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;严重: &amp;gt;&amp;gt;java.lang.NullPointerException&lt;br&gt;&amp;gt;&amp;gt;    at mo.org.sgvd.ui.convert.ConvertListboxToLong.coerceToUi(ConvertListboxToLong.java:33)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.Binding.myLoadAttribute(Binding.java:299)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.Binding.loadAttribute(Binding.java:279)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.loadAllBindings(DataBinder.java:1472)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.myLoadAllNodes(DataBinder.java:1375)&lt;br&gt;&amp;gt;&amp;gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.myLoadAllNodes(DataBinder.java:1384)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; 
-
-&lt;p&gt;异常原因分析:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 这是笔者在工作中遇到最多的异常,其主要原因是因为一个为空的对象调用方法而导致的.例如:&lt;/p&gt;
-&lt;textarea cols=&quot;21&quot; rows=&quot;2&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;Object obj = null;&lt;br&gt;obj.toString();&lt;/textarea&gt; 
-
-&lt;p&gt;这个简单的例子中,obj为空对象,然后紧接着调用其toString();方法,就会导致以上异常.在日常工作中要十分注意此类问题,比如写了一些方法,某些参数如果为空,就会导致空指针异常,所以尽量在注释上标明此参数不能为空.或者加入为空判断,例如以上例子改写为:&lt;/p&gt;
-&lt;textarea cols=&quot;50&quot; rows=&quot;6&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;Object obj = null;&lt;br&gt;if(obj != null) {&lt;br&gt;   obj.toString();&lt;br&gt;} else {&lt;br&gt;   //执行另外一些操作&lt;br&gt;}&lt;/textarea&gt; 
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
-    作者：wherejaly 发表于2009/8/19 16:39:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4463557)
-&amp;lt;/div&amp;gt;
-&amp;lt;div&amp;gt;
-阅读：642 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/4463557#comments)
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;异常日志:&lt;/p&gt;
-&lt;textarea cols=&quot;90&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;严重: &amp;gt;&amp;gt;java.lang.NullPointerException&lt;br&gt;&amp;gt;&amp;gt;    at
     
     </summary>
     

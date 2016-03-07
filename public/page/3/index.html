@@ -152,7 +152,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/ios/" style="font-size: 10px;">ios</a> <a href="/tags/iphone/" style="font-size: 10px;">iphone</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/objective-c/" style="font-size: 10px;">objective-c</a> <a href="/tags/oracle/" style="font-size: 10px;">oracle</a> <a href="/tags/weblogic/" style="font-size: 10px;">weblogic</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+                        <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/ios/" style="font-size: 10px;">ios</a> <a href="/tags/iphone/" style="font-size: 10px;">iphone</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/objective-c/" style="font-size: 10px;">objective-c</a> <a href="/tags/oracle/" style="font-size: 10px;">oracle</a> <a href="/tags/weblogic/" style="font-size: 10px;">weblogic</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
                     </div>
                 </section>
                 
@@ -229,6 +229,74 @@
     </div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-原-java-lang-NullPointerException" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2009/08/19/原-java-lang-NullPointerException/" class="article-date">
+      <time datetime="2009-08-19T08:39:00.000Z" itemprop="datePublished">2009-08-19</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2009/08/19/原-java-lang-NullPointerException/">[原]java.lang.NullPointerException</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>异常日志:</p>
+<textarea cols="90" rows="15" name="code" class="java:showcolumns">严重: &gt;&gt;java.lang.NullPointerException<br>&gt;&gt;    at mo.org.sgvd.ui.convert.ConvertListboxToLong.coerceToUi(ConvertListboxToLong.java:33)<br>&gt;&gt;    at org.zkoss.zkplus.databind.Binding.myLoadAttribute(Binding.java:299)<br>&gt;&gt;    at org.zkoss.zkplus.databind.Binding.loadAttribute(Binding.java:279)<br>&gt;&gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.loadAllBindings(DataBinder.java:1472)<br>&gt;&gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.myLoadAllNodes(DataBinder.java:1375)<br>&gt;&gt;    at org.zkoss.zkplus.databind.DataBinder$LoadOnSaveEventListener.myLoadAllNodes(DataBinder.java:1384)<br>&gt;&gt;…</textarea> 
+
+<p>异常原因分析:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是笔者在工作中遇到最多的异常,其主要原因是因为一个为空的对象调用方法而导致的.例如:</p>
+<textarea cols="21" rows="2" name="code" class="java:showcolumns">Object obj = null;<br>obj.toString();</textarea> 
+
+<p>这个简单的例子中,obj为空对象,然后紧接着调用其toString();方法,就会导致以上异常.在日常工作中要十分注意此类问题,比如写了一些方法,某些参数如果为空,就会导致空指针异常,所以尽量在注释上标明此参数不能为空.或者加入为空判断,例如以上例子改写为:</p>
+<textarea cols="50" rows="6" name="code" class="java">Object obj = null;<br>if(obj != null) {<br>   obj.toString();<br>} else {<br>   //执行另外一些操作<br>}</textarea> 
+
+<pre><code>&lt;div&gt;
+    作者：wherejaly 发表于2009/8/19 16:39:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4463557)
+&lt;/div&gt;
+&lt;div&gt;
+阅读：642 评论：0 [查看评论](http://blog.csdn.net/wherejaly/article/details/4463557#comments)
+&lt;/div&gt;
+</code></pre>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
   
     <article id="post-原-org-zkoss-zk-ui-UiException-java-lang-NoSuchMethodException" class="article article-type-post" itemscope itemprop="blogPost">
   

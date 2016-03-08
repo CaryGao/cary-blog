@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://carygao.github.io/"/>
-  <updated>2016-03-07T04:34:57.353Z</updated>
+  <updated>2016-03-08T07:25:42.604Z</updated>
   <id>https://carygao.github.io/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Oracle - ORA-01840: input value not long enough for date format</title>
+    <link href="https://carygao.github.io/2016/03/08/Oracle-ORA-01840-input-value-not-long-enough-for-date-format/"/>
+    <id>https://carygao.github.io/2016/03/08/Oracle-ORA-01840-input-value-not-long-enough-for-date-format/</id>
+    <published>2016-03-08T07:20:33.000Z</published>
+    <updated>2016-03-08T07:25:42.604Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;错误日志：&quot;&gt;&lt;a href=&quot;#错误日志：&quot; class=&quot;headerlink&quot; title=&quot;错误日志：&quot;&gt;&lt;/a&gt;错误日志：&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Oracle - ORA-01840: input value not long enough for date format&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在程式执行查询方法时，日志中出现以上错误&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;错误原因：&quot;&gt;&lt;a href=&quot;#错误原因：&quot; class=&quot;headerlink&quot; title=&quot;错误原因：&quot;&gt;&lt;/a&gt;错误原因：&lt;/h2&gt;&lt;p&gt;原因是查询语句中某个日期参数格式有问题，例如设置了&lt;code&gt;date = to_date(&amp;#39;2015-02-29 08:53&amp;#39;, &amp;#39;yyyy-mm-dd hh24:mi:ss&amp;#39;)&lt;/code&gt;,而2015年根本没有2月29日，故而报错。&lt;/p&gt;
+&lt;h2 id=&quot;解决方法：&quot;&gt;&lt;a href=&quot;#解决方法：&quot; class=&quot;headerlink&quot; title=&quot;解决方法：&quot;&gt;&lt;/a&gt;解决方法：&lt;/h2&gt;&lt;p&gt;debug查找所有日期参数，看看格式是否正确。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;错误日志：&quot;&gt;&lt;a href=&quot;#错误日志：&quot; class=&quot;headerlink&quot; title=&quot;错误日志：&quot;&gt;&lt;/a&gt;错误日志：&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Oracle - ORA-01840: input value not long enough for date format&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在程式执行查询方法时，日志中出现以上错误&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="oracle" scheme="https://carygao.github.io/categories/oracle/"/>
+    
+    
+      <category term="oracle" scheme="https://carygao.github.io/tags/oracle/"/>
+    
+      <category term="java" scheme="https://carygao.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo安装教程(一)</title>
@@ -799,47 +829,6 @@
     
       &lt;p&gt;錯誤日志:&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;textarea cols=&quot;88&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;[31 12:02:03,906 WARN ] [Thread-11] ut
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>[原]org.hibernate.QueryException: query specified join fetching, but the owner of the fetched association was not present in the sel</title>
-    <link href="https://carygao.github.io/2009/08/21/%E5%8E%9F-org-hibernate-QueryException-query-specified-join-fetching-but-the-owner-of-the-fetched-association-was-not-present-in-the-sel/"/>
-    <id>https://carygao.github.io/2009/08/21/原-org-hibernate-QueryException-query-specified-join-fetching-but-the-owner-of-the-fetched-association-was-not-present-in-the-sel/</id>
-    <published>2009-08-21T01:50:00.000Z</published>
-    <updated>2016-03-07T03:52:29.591Z</updated>
-    
-    <content type="html">&lt;p&gt;错误日志:&lt;/p&gt;
-&lt;textarea cols=&quot;91&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;2009-8-20 12:17:56 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;br&gt;严重: &amp;gt;&amp;gt;java.lang.IllegalArgumentException: org.hibernate.QueryException: query specified join fetching, but the owner of the fetched association was not present in the select list [FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=SGVD.TPROFILE,tableAlias=tprofile1&lt;em&gt;,origin=SGVD.TPROFILEPERSON tprofilepe0&lt;/em&gt;,colums={tprofilepe0&lt;em&gt;.PROFILEID ,className=mo.org.sgvd.domain.Tprofile}}] [SELECT pfp.tprofile FROM mo.org.sgvd.domain.Tprofileperson pfp left join fetch pfp.tprofile WHERE pfp.tperson.personid = 114]&lt;br&gt;&amp;gt;&amp;gt;org.hibernate.QueryException: query specified join fetching, but the owner of the fetched association was not present in the select list [FromElement{explicit,not a collection join,fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=SGVD.TPROFILE,tableAlias=tprofile1&lt;/em&gt;,origin=SGVD.TPROFILEPERSON tprofilepe0&lt;em&gt;,colums={tprofilepe0&lt;/em&gt;.PROFILEID ,className=mo.org.sgvd.domain.Tprofile}}] [SELECT pfp.tprofile FROM mo.org.sgvd.domain.Tprofileperson pfp left join fetch pfp.tprofile WHERE pfp.tperson.personid = 114]&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.tree.SelectClause.initializeExplicitSelectClause(SelectClause.java:195)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.HqlSqlWalker.useSelectClause(HqlSqlWalker.java:705)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.ast.HqlSqlWalker.processQuery(HqlSqlWalker.java:529)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:645)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.hql.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:281)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; 
-
-&lt;p&gt;错误原因分析:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 首先看HQL语句:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT pfp.tprofile FROM Tprofileperson pfp left join fetch pfp.tprofile WHERE pfp.tperson.personid = 114&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 此处我希望加载Tprofileperson下的tprofile,而我使用了fetch来立即抓取tprofile,错误就在这里.如果你使用fetch,那么fetch左边的连接对象(拥有者)一定要出现在select后,例如将上面改为select pfp… 这样就会执行正常,因为使用了fetch,Hibernate就会将需要fetch的对象(Tprofile)立即加载在父对象(Tprofileperson)中,而我的select确只是列出子对象,而拥有者(Tprofileperson)并没有present(出席在结果集中),那么就会出现以上错误.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 下面我们看另外会出现同样错误的语句:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;textarea cols=&quot;50&quot; rows=&quot;3&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;01: select person from Person as person&lt;br&gt;02: left join person.address as address&lt;br&gt;03: left join fetch address.country as country&lt;/textarea&gt; &lt;/p&gt;
-&lt;p&gt;你可以看到在第3行使用了fetch,而第2行确没有使用fetch,那么第3行fetch的拥有者address并没有立即被抓取,这就会导致同样的错误,将第2行中的join后加上fetch,即可解决问题.&lt;/p&gt;
-&lt;p&gt;总结:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 如果使用了fetch,那么拥有者一定要present,也就是对象一定要被加载出来&lt;/p&gt;
-&lt;p&gt;参考资料:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=&quot;http://lamnguyenblog.com/2008/10/common-hibernate-errors-and-causes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://lamnguyenblog.com/2008/10/common-hibernate-errors-and-causes/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=&quot;http://www.google.com/custom?hl=en&amp;amp;lr=&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=pub-2698861478625135&amp;amp;cof=FORID%3A1%3BGL%3A1%3BLBGC%3A336699%3BLC%3A%230000ff%3BVLC%3A%23663399%3BGFNT%3A%230000ff%3BGIMP%3A%230000ff%3BDIV%3A%23336699%3B&amp;amp;q=org.hibernate.QueryException%3A+query+specified+join+fetching%2C+but+the+owner+of+the+fetched+association+was+not+present+in+the+select+list&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.google.com/custom?hl=en&amp;amp;lr=&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;client=pub-2698861478625135&amp;amp;cof=FORID%3A1%3BGL%3A1%3BLBGC%3A336699%3BLC%3A%230000ff%3BVLC%3A%23663399%3BGFNT%3A%230000ff%3BGIMP%3A%230000ff%3BDIV%3A%23336699%3B&amp;amp;q=org.hibernate.QueryException%3A+query+specified+join+fetching%2C+but+the+owner+of+the+fetched+association+was+not+present+in+the+select+list&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
-    作者：wherejaly 发表于2009/8/21 9:50:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4468772)
-&amp;lt;/div&amp;gt;
-&amp;lt;div&amp;gt;
-阅读：5100 评论：4 [查看评论](http://blog.csdn.net/wherejaly/article/details/4468772#comments)
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;错误日志:&lt;/p&gt;
-&lt;textarea cols=&quot;91&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java:showcolumns&quot;&gt;2009-8-20 12:17:56 org.zkoss.zk.ui.impl.UiEngineImpl handleE
     
     </summary>
     

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://carygao.github.io/"/>
-  <updated>2016-03-08T07:25:42.604Z</updated>
+  <updated>2016-03-11T08:40:26.435Z</updated>
   <id>https://carygao.github.io/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何配置Oracle的SQLPlus</title>
+    <link href="https://carygao.github.io/2016/03/11/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AEOracle%E7%9A%84SQLPlus/"/>
+    <id>https://carygao.github.io/2016/03/11/如何配置Oracle的SQLPlus/</id>
+    <published>2016-03-11T08:00:25.000Z</published>
+    <updated>2016-03-11T08:40:26.435Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;SQL-Plus-Overview&quot;&gt;&lt;a href=&quot;#SQL-Plus-Overview&quot; class=&quot;headerlink&quot; title=&quot;SQL*Plus Overview&quot;&gt;&lt;/a&gt;SQL*Plus Overview&lt;/h3&gt;&lt;p&gt;SQL*Plus是一个用于与Oracle Database交互和执行查询的工具，我们要安装的是命令行工具。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装环境&quot;&gt;&lt;a href=&quot;#安装环境&quot; class=&quot;headerlink&quot; title=&quot;安装环境&quot;&gt;&lt;/a&gt;安装环境&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Windows7 64位&lt;/li&gt;
+&lt;li&gt;Oracle 11g&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;下载命令行工具&quot;&gt;&lt;a href=&quot;#下载命令行工具&quot; class=&quot;headerlink&quot; title=&quot;下载命令行工具&quot;&gt;&lt;/a&gt;下载命令行工具&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/topics/winx64soft-089540.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;点击这里进入官网下载&lt;/a&gt;，下载其中两个文件&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;instantclient-basic-windows.x64-12.1.0.2.0.zip&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;instantclient-sqlplus-windows.x64-12.1.0.2.0.zip&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;其中basic是所有工具依赖的基本库，sqlplus是其中的命令行工具。&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装命令行工具&quot;&gt;&lt;a href=&quot;#安装命令行工具&quot; class=&quot;headerlink&quot; title=&quot;安装命令行工具&quot;&gt;&lt;/a&gt;安装命令行工具&lt;/h3&gt;&lt;p&gt;SQL*Plus命令行工具无需执行exe安装，所以只需将下载回来的两个文件解压到同一个目录即可，解压后文件名应该为&lt;code&gt;instantclient_12_1&lt;/code&gt;，在运行工具之前我们需要在windows中配置以下环境变量，先右键计算机-&amp;gt;属性-&amp;gt;高级系统设置-&amp;gt;环境变量,在系统变量中找到&lt;code&gt;Path&lt;/code&gt;并在后面加上刚才解压后&lt;code&gt;instantclient_12_1&lt;/code&gt;的目录与sdk子目录&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;C:\Program Files\instantclient_12_1\;C:\Program Files\instantclient_12_1\sdk;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;再新增两个变量到系统环境中&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;TNS_ADMIN=C:\Program Files\instantclient_11_2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NLS_LANG=AMERICAN_AMERICA.UTF8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;测试连接数据库&quot;&gt;&lt;a href=&quot;#测试连接数据库&quot; class=&quot;headerlink&quot; title=&quot;测试连接数据库&quot;&gt;&lt;/a&gt;测试连接数据库&lt;/h3&gt;&lt;p&gt;打开CMD命令,输入以下&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sqlplus 用户名/密码@数据库主机Ip&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;如果成功则CMD会显示&lt;code&gt;SQL&amp;gt;_&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;连接数据库详细语法&quot;&gt;&lt;a href=&quot;#连接数据库详细语法&quot; class=&quot;headerlink&quot; title=&quot;连接数据库详细语法&quot;&gt;&lt;/a&gt;连接数据库详细语法&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sqlplus username/password  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#如：普通用户登录  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sqlplus scott/tiger&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sqlplus username/password@net_service_name &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#如: &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sqlplus scott/tiger@orcl&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sqlplus  username/password as sysdba &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#如：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sqlplus sys/admin as sysdba&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sqlplus username/password@//host:port/sid&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;注意：sys和system需要以sysdba登录&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;连接可能遇到的错误&quot;&gt;&lt;a href=&quot;#连接可能遇到的错误&quot; class=&quot;headerlink&quot; title=&quot;连接可能遇到的错误&quot;&gt;&lt;/a&gt;连接可能遇到的错误&lt;/h3&gt;&lt;p&gt;笔者在用sqlplus连接时曾遇到以下报错&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ORA-12514 TNS:listener does not currently know of service requested in connect descriptor&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;原因为环境变量中没有配置&lt;code&gt;TNS_ADMIN&lt;/code&gt;，加上配置后错误就解决了。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;SQL-Plus-Overview&quot;&gt;&lt;a href=&quot;#SQL-Plus-Overview&quot; class=&quot;headerlink&quot; title=&quot;SQL*Plus Overview&quot;&gt;&lt;/a&gt;SQL*Plus Overview&lt;/h3&gt;&lt;p&gt;SQL*Plus是一个用于与Oracle Database交互和执行查询的工具，我们要安装的是命令行工具。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="oracle" scheme="https://carygao.github.io/categories/oracle/"/>
+    
+    
+      <category term="oracle" scheme="https://carygao.github.io/tags/oracle/"/>
+    
+      <category term="sqlplus" scheme="https://carygao.github.io/tags/sqlplus/"/>
+    
+  </entry>
   
   <entry>
     <title>Oracle - ORA-01840: input value not long enough for date format</title>
@@ -798,37 +837,6 @@
     <summary type="html">
     
       &lt;textarea cols=&quot;86&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;Caused by: java.sql.SQLException: ORA-01799: a column may not be outer-joined to a su
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>[原]java.sql.BatchUpdateException: ORA-02291: integrity constraint</title>
-    <link href="https://carygao.github.io/2009/08/31/%E5%8E%9F-java-sql-BatchUpdateException-ORA-02291-integrity-constraint/"/>
-    <id>https://carygao.github.io/2009/08/31/原-java-sql-BatchUpdateException-ORA-02291-integrity-constraint/</id>
-    <published>2009-08-31T04:07:00.000Z</published>
-    <updated>2016-03-07T03:52:29.576Z</updated>
-    
-    <content type="html">&lt;p&gt;錯誤日志:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;textarea cols=&quot;88&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;[31 12:02:03,906 WARN ] [Thread-11] util.JDBCExceptionReporter - SQL Error: 2291, SQLState: 23000&lt;br&gt;2009-8-31 12:02:04 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108&lt;br&gt;严重: &amp;gt;&amp;gt;org.springframework.dao.DataIntegrityViolationException: Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update&lt;br&gt;&amp;gt;&amp;gt;org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update&lt;br&gt;[SQL: 2291, 23000]&lt;br&gt;&amp;gt;&amp;gt;java.sql.BatchUpdateException: ORA-02291: integrity constraint (SGVD.TFACTCANCELLI_FK61247830083984) violated - parent key not found&lt;br&gt;&amp;gt;&amp;gt;&lt;br&gt;&amp;gt;&amp;gt;    at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:342)&lt;br&gt;&amp;gt;&amp;gt;    at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:10656)&lt;br&gt;&amp;gt;&amp;gt;    at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)&lt;br&gt;&amp;gt;&amp;gt;    at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:246)&lt;br&gt;&amp;gt;&amp;gt;…&lt;/textarea&gt; &lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;錯誤分析:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 从字面来看,此错误为外键约束错误,经过检查发现,某字段在数据库中设置外键与Hibernate中引用的表对象不同而导致错误.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
-    作者：wherejaly 发表于2009/8/31 12:07:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4502696)
-&amp;lt;/div&amp;gt;
-&amp;lt;div&amp;gt;
-阅读：4967 评论：1 [查看评论](http://blog.csdn.net/wherejaly/article/details/4502696#comments)
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;錯誤日志:&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;textarea cols=&quot;88&quot; rows=&quot;15&quot; name=&quot;code&quot; class=&quot;java&quot;&gt;[31 12:02:03,906 WARN ] [Thread-11] ut
     
     </summary>
     

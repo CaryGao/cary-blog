@@ -152,7 +152,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/ios/" style="font-size: 10px;">ios</a> <a href="/tags/iphone/" style="font-size: 10px;">iphone</a> <a href="/tags/java/" style="font-size: 20px;">java</a> <a href="/tags/objective-c/" style="font-size: 10px;">objective-c</a> <a href="/tags/oracle/" style="font-size: 20px;">oracle</a> <a href="/tags/weblogic/" style="font-size: 10px;">weblogic</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+                        <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/ios/" style="font-size: 10px;">ios</a> <a href="/tags/iphone/" style="font-size: 10px;">iphone</a> <a href="/tags/java/" style="font-size: 15px;">java</a> <a href="/tags/objective-c/" style="font-size: 10px;">objective-c</a> <a href="/tags/oracle/" style="font-size: 20px;">oracle</a> <a href="/tags/sqlplus/" style="font-size: 10px;">sqlplus</a> <a href="/tags/weblogic/" style="font-size: 10px;">weblogic</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
                     </div>
                 </section>
                 
@@ -229,6 +229,70 @@
     </div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-原-java-sql-BatchUpdateException-ORA-02291-integrity-constraint" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2009/08/31/原-java-sql-BatchUpdateException-ORA-02291-integrity-constraint/" class="article-date">
+      <time datetime="2009-08-31T04:07:00.000Z" itemprop="datePublished">2009-08-31</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2009/08/31/原-java-sql-BatchUpdateException-ORA-02291-integrity-constraint/">[原]java.sql.BatchUpdateException: ORA-02291: integrity constraint</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>錯誤日志:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea cols="88" rows="15" name="code" class="java">[31 12:02:03,906 WARN ] [Thread-11] util.JDBCExceptionReporter - SQL Error: 2291, SQLState: 23000<br>2009-8-31 12:02:04 org.zkoss.zk.ui.impl.UiEngineImpl handleError:1108<br>严重: &gt;&gt;org.springframework.dao.DataIntegrityViolationException: Could not execute JDBC batch update; nested exception is org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update<br>&gt;&gt;org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update<br>[SQL: 2291, 23000]<br>&gt;&gt;java.sql.BatchUpdateException: ORA-02291: integrity constraint (SGVD.TFACTCANCELLI_FK61247830083984) violated - parent key not found<br>&gt;&gt;<br>&gt;&gt;    at oracle.jdbc.driver.DatabaseError.throwBatchUpdateException(DatabaseError.java:342)<br>&gt;&gt;    at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:10656)<br>&gt;&gt;    at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)<br>&gt;&gt;    at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)<br>&gt;&gt;    at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:246)<br>&gt;&gt;…</textarea> </p>
+<p>&nbsp;</p>
+<p>錯誤分析:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 从字面来看,此错误为外键约束错误,经过检查发现,某字段在数据库中设置外键与Hibernate中引用的表对象不同而导致错误.</p>
+<p>&nbsp;</p>
+<pre><code>&lt;div&gt;
+    作者：wherejaly 发表于2009/8/31 12:07:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/4502696)
+&lt;/div&gt;
+&lt;div&gt;
+阅读：4967 评论：1 [查看评论](http://blog.csdn.net/wherejaly/article/details/4502696#comments)
+&lt;/div&gt;
+</code></pre>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
   
     <article id="post-原-org-hibernate-QueryException-query-specified-join-fetching-but-the-owner-of-the-fetched-association-was-not-present-in-the-sel" class="article article-type-post" itemscope itemprop="blogPost">
   

@@ -72,6 +72,7 @@ theme: yelee
 deploy:
   type: git
   repo: https://github.com/CaryGao/CaryGao.github.io.git
+  #repo: https://git.coding.net/888888888/Cary.git
 #github: https://github.com/CaryGao/CaryGao.github.io.git
 #coding: https://git.coding.net/888888888/Cary.git
   branch: master

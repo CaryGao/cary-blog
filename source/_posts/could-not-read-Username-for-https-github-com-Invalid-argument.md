@@ -25,6 +25,7 @@ could not read Username for 'https://github.com': Invalid argument
 git config --global user.name "yourname"
 git config --global user.email "youremail"
 
+
 ```
 
 3. 检查`_config.yml`的配置是否正确

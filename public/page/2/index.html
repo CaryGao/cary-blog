@@ -266,6 +266,70 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-原-如何给组件添加事件并传递参数" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2010/05/06/原-如何给组件添加事件并传递参数/" class="article-date">
+      <time datetime="2010-05-06T07:18:00.000Z" itemprop="datePublished">2010-05-06</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2010/05/06/原-如何给组件添加事件并传递参数/">[原]如何给组件添加事件并传递参数</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>&nbsp;&nbsp; &nbsp; 我们以UIButton为demo</p>
+<p><textarea cols="50" rows="15" name="code" class="c-sharp">UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(buttonX, buttonY, width, height)];<br>//给button添加点击事件，action参数中写入事件执行方法<br>[button addTarget:self action:@selector(action:) forControlEvents:UIControlEventTouchUpInside];<br>//在button的tag中添加你需要传递的参数，目前资料中只有这种方法<br>//你可以传入任意类型的参数<br>[button setTag:100];<br>//下面是action方法<br>-(void)action:(id)sender{<br>//这个sender其实就是UIButton，因此通过sender.tag就可以拿到刚才的参数<br>    int i = [sender tag];<br>}</textarea>&nbsp;</p>
+<p>目前暂时没有找到其他方法来传递参数，</p>
+<pre><code>&lt;div&gt;
+    作者：wherejaly 发表于2010/5/6 15:18:00 [原文链接](http://blog.csdn.net/wherejaly/article/details/5563506)
+&lt;/div&gt;
+&lt;div&gt;
+阅读：4652 评论：1 [查看评论](http://blog.csdn.net/wherejaly/article/details/5563506#comments)
+&lt;/div&gt;
+</code></pre>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-原-如何转换NSString与NSDate" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -441,7 +505,7 @@
       
       
         <p class="article-more-link">
-          <a href="/2010/04/27/原-Eclipse快捷键大搜集-不断更新/#more">more >></a>
+          <a href="/2010/04/27/原-Eclipse快捷键大搜集-不断更新/#more">阅读全文 >></a>
         </p>
       
       <div class="clearfix"></div>
@@ -711,7 +775,7 @@
       
       
         <p class="article-more-link">
-          <a href="/2009/10/24/原-java-lang-IllegalArgumentException-id-to-load-is-required-for-loading/#more">more >></a>
+          <a href="/2009/10/24/原-java-lang-IllegalArgumentException-id-to-load-is-required-for-loading/#more">阅读全文 >></a>
         </p>
       
       <div class="clearfix"></div>
@@ -846,66 +910,6 @@
       
 
       
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-原-java-lang-IllegalArgumentException-node-to-traverse-cannot-be-null" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2009/09/12/原-java-lang-IllegalArgumentException-node-to-traverse-cannot-be-null/" class="article-date">
-      <time datetime="2009-09-12T01:56:00.000Z" itemprop="datePublished">2009-09-12</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2009/09/12/原-java-lang-IllegalArgumentException-node-to-traverse-cannot-be-null/">[原]java.lang.IllegalArgumentException: node to traverse cannot be null!</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>錯誤日志:</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-        <p class="article-more-link">
-          <a href="/2009/09/12/原-java-lang-IllegalArgumentException-node-to-traverse-cannot-be-null/#more">more >></a>
-        </p>
       
       <div class="clearfix"></div>
     </div>
